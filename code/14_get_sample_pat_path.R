@@ -11,7 +11,7 @@ load(file = file.path("workspace", "cases_pathways.RData"))
 
 sample_size = 100
 
-# set.seed(42)
+set.seed(42)
 
 pat_id_sample <- sample(unique(cases$pat_id), sample_size)
 pat_sample <- filter(cases, pat_id %in% pat_id_sample)
@@ -46,8 +46,9 @@ pat_sample <- pat_sample %>%
   
   select(new_pat, pat_id, age, sex, cause, lesion_level, completeness, 
          type_2, LOS_OECD, admission_pre, admission_mode, discharge_post_treat, discharge_place, 
-         pd_title_full, pd_title_chapter, SCI_codes_all, SCI_coding_cred_score, pat_path, 
-         -c(type, BUR, seq_no_corr, d_p_treat, acute_chron)) %>% 
+         pd_title_full, pd_title_chapter, SCI_codes_all, SCI_coding_cred_score, pat_path, d_p_treat, 
+         d_next_hosp,
+         -c(type, BUR, seq_no_corr,acute_chron)) %>% 
   
   rename(coding_qual = SCI_coding_cred_score) %>% 
   
