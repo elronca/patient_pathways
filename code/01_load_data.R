@@ -8,8 +8,12 @@
 library(data.table)
 library(tidyverse)
 
+# Elias at work
 
 raw_data <- "C:/Users/Elias/OneDrive/01_work/02_R/03_raw data/HOST"
+
+# Elias at home
+
 # raw_data <- "D:/OneDrive/01_work/02_R/03_raw data/HOST"
 
 ####################################################################################################

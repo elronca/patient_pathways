@@ -35,6 +35,7 @@ dir()
 
 
 # Load data
+# Change path to folder in file 01_load_data.R, where the hospital discharge data is stored on your computer.
 
 source(file.path("code", "01_load_data.R"), encoding = "utf-8", local = TRUE, echo = TRUE)
 
