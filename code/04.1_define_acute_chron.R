@@ -10,7 +10,7 @@
 library(tidyverse)
 library(pbapply)
 
-load(file = file.path(".", "workspace", "ICD10_txt_added.RData"))
+load(file = file.path("workspace", "ICD10_txt_added.RData"))
 
 
 # Function that determines the SCI relevance of a hospitalization 
@@ -114,6 +114,6 @@ cases <- filter(cases, pat_id != pat_no_SCI)
 
 # Save dataset - Clear workspace -----------------------------------
 
-save(cases, file = file.path(".", "workspace", "cases_acute_chronic.RData"))
+save(cases, file = file.path("workspace", "cases_acute_chronic.RData"))
 
 rm("acute_nt_codes", "cases", "SCI_det", "pat_no_SCI")
