@@ -11,7 +11,7 @@
 library(tidyverse)
 library(zoo)
 
-load(file = file.path(".", "workspace", "cases_sorted.RData"))
+load(file = file.path("workspace", "cases_sorted.RData"))
 
 
 ## Load text to ICD-10-GM codes
@@ -25,7 +25,7 @@ icd_10_info <- read_delim(
   select(class_lvl = X1, chapter_number = X4, ICD_10_code = X8, title_full = X9, title_lvl_3 = X10) 
 
 chapters <- read_delim(
-  file.path(".", "data", "ICD_10_GM_files", "x1gma2013", "Klassifikationsdateien", "icd10gm2013syst_kapitel.txt"), 
+  file.path("data", "ICD_10_GM_files", "x1gma2013", "Klassifikationsdateien", "icd10gm2013syst_kapitel.txt"), 
   delim = ";", 
   col_names = c("chapter_number", "chapter_title"),
   col_types = cols(chapter_number = col_character(), chapter_title = col_character()))
@@ -55,16 +55,16 @@ groups <- groups %>%
   
   mutate(
     
-    start_code_digit = gsub("[[:alpha:]]", "", start_code),
-    end_code_digit = gsub("[[:alpha:]]", "", end_code),
-    start_code_letter = gsub("[[:digit:]]", "", start_code),
-    end_code_letter = gsub("[[:digit:]]", "", end_code)
+    start_code_digit = str_replace_all(start_code, "[[:alpha:]]", ""),
+    end_code_digit = str_replace_all(end_code, "[[:alpha:]]", ""),
+    start_code_letter = str_replace_all(start_code, "[[:digit:]]", ""),
+    end_code_letter = str_replace_all(end_code, "[[:digit:]]", "")
     
   ) %>% 
   
   mutate_at(vars(c("start_code_digit", "end_code_digit")), as.integer) %>% 
   
-  # Some codes which go over multiple letters (Unfälle + Tätlicher Angriff), which makes the whole thing complicted
+  # Some codes go over multiple letters (Unfälle + Tätlicher Angriff), which makes the whole thing complicted
   
   # V01-X59  Unfälle
   # X85-Y09  Tätlicher Angriff
@@ -110,7 +110,7 @@ groups <- mutate(groups, codes_digit_seq = codes_digit_seq)
 
 # Sequences including the letters are generated and added to the dataset
 
-sprintf_pattern <- paste0(groups[["start_code_letter"]], "%02d")
+sprintf_pattern <- str_c(groups[["start_code_letter"]], "%02d")
 code_sequence <- groups[["codes_digit_seq"]]
 group_codes_list <- mapply(sprintf, sprintf_pattern, code_sequence)
 groups <- mutate(groups, ICD_10_code = group_codes_list)
@@ -135,7 +135,7 @@ icd_10_info <- mutate(icd_10_info, group_title = na.locf0(group_title, fromLast 
 
 # Save file - clear workspace ---------------------------------------------
 
-save(icd_10_info, file = file.path(".", "workspace", "icd_10_codes_titles.RData"))
+save(icd_10_info, file = file.path("workspace", "icd_10_codes_titles.RData"))
 
 rm("chapters", "code_sequence", "codes_digit_seq", "group_codes_list", 
   "groups", "manually_added", "sprintf_pattern")
@@ -184,7 +184,7 @@ cases <- mutate(cases, pd_add_txt = case_when(
   TRUE ~ NA_character_))
 
 
-save(cases, file = file.path(".", "workspace", "ICD10_txt_added.RData"))
+save(cases, file = file.path("workspace", "ICD10_txt_added.RData"))
 
 rm("cases", "icd_10_info", "to_merge_with_pd")
 
