@@ -1,0 +1,97 @@
+ICD-10-GM, Systematisches Verzeichnis
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013      (OID 1.2.276.0.76.5.413)
+Systematisches Verzeichnis  EDV-Fassung ASCII
+
+Herausgabe der Klassifikation:      21.09.2012
+
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+BITTE BEACHTEN SIE:
+
+Ab 2015 wird die EDV-Fassung ASCII durch die CLaML-Fassung ersetzt.
+
+Spätestens für die Versionen 2015 wird es keine EDV-ASCII-Dateien zu den Systematiken von ICD-10-WHO, ICD-10-GM und OPS mehr geben.
+Wir ersetzen sie durch das von der WHO empfohlene Standardformat ClaML.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+INHALT DES ZIP-FILES  x1gea2013.zip:
+
+  - icd10gm2013syst_edvascii_liesmich.txt
+
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - Ordner KLASSIFIKATIONSDATEIEN
+    icd10gm2013syst_edvascii_20120921.txt
+    icd10gm2013syst_edvascii_kap07tab.txt
+
+
+  - Ordner ZUSATZDATEIEN 
+    icd10gm2013syst_01_vor_titelblatt.odt
+    icd10gm2013syst_02_vor_inhaltsverzeichnis.odt
+    icd10gm2013syst_03_vor_anleitung_zur_verschluesselung.odt
+    icd10gm2013syst_04_vor_kommentar.odt
+    icd10gm2013syst_05_anh_morphologie_neubildungen.odt
+    icd10gm2013syst_06_anh_barthelindex.odt
+    icd10gm2013syst_07_anh_erwbarthelindex.odt
+    icd10gm2013syst_08_anh_frb_schoenle.odt
+    icd10gm2013syst_09_anh_fim.odt
+    icd10gm2013syst_10_anh_mmse.odt
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+DATENSATZBESCHREIBUNG
+
+Zeichenvorrat  : UTF-8
+
+Spaltenstruktur:
+Spalte 1       : hierarchische Ebene der Klassifikation
+                  0 = Kapitel
+                  1 = Gruppe
+                  2 = Untergruppe Ebene 1
+                  3 = Untergruppe Ebene 2
+                  4 = Dreisteller
+                  5 = Viersteller
+                  6 = Fünfsteller
+
+                  X = Beginn einer Subklassifikation
+                  V = vierte Stelle in einer Subklassifikation
+                  F = fünfte Stelle in einer Subklassifikation
+                  L = Leerzeile aus optischen Gründen
+                  P = neuer Absatz
+
+Spalte 2      : logisches Element der Klassifikation
+                  * = Übersicht der Sternschlüsselnummern eines Kapitels
+                  G = Gliederung eines Kapitels in Gruppen
+                  B = Benutze-Hinweise für zusätzliche Schlüsselnummern
+                  E = Exklusiva
+                  H = Hinweistext
+                  I = Inklusiva
+                  R = erklärender Text
+                  S = Siehe-Verweis auf Subklassifikation
+                  T = Basisinformation (Klassentitel, ggf. Schlüsselnummer)
+                  Z = Leerzeile aus optischen Gründen
+
+Spalte 3     : aus optischen Gründen leer
+
+Spalte 4     : hier beginnt der eigentliche Text der ICD-10
+
+
+Längere Fließtexte sind durch Leerzeilen gegliedert; diese sind nicht eigens durch "LZ" in Spalte 1 gekennzeichnet. Diese Kennzeichnung tritt im Wesentlichen innerhalb der eigentlichen Systematiken auf.

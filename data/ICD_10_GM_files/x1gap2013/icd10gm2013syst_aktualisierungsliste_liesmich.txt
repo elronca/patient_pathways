@@ -1,0 +1,47 @@
+ICD-10-GM, Systematisches Verzeichnis
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013      (OID 1.2.276.0.76.5.413) 
+Systematisches Verzeichnis  Aktualisierungsliste 
+
+
+Herausgabe der Klassifikation:      21.09.2012
+
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+INHALT DES ZIP-FILES  x1gap2013.zip:
+
+  - icd10gm2013syst_aktualisierungsliste_liesmich.txt
+
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - Ordner KLASSIFIKATIONSDATEIEN
+    icd10gm2013syst_aktualisierungsliste_20120921.pdf
+    icd10gm2013syst_differenzliste_20120921.pdf
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Das ZIP-File Aktualisierungsliste enthält für diese Endfassung zwei Listen, die Aktualisierungsliste und die Differenzliste. 
+
+Die Aktualisierungsliste enthält Änderungen der jeweiligen Version der ICD-10-GM gegenüber der Vorgängerversion. 
+Die Differenzliste enthält diejenigen Änderungen, die sich in der Endfassung der ICD-10-GM gegenüber der Vorabversion ergeben haben.
+
+Die dargestellten Änderungen beziehen sich vor allem auf inhaltliche, aber auch auf ausgewählte redaktionelle Modifikationen der Klassifikation. Beide Listen haben keinen abschließenden Charakter, da z.B. orthografische Korrekturen nicht in jedem Fall enthalten sind und auch bei aller Sorgfalt Abweichungen gegenüber der amtlichen Ausgabe nicht ausgeschlossen werden können. Eine Gewähr für Vollständigkeit kann daher nicht übernommen werden. 
+Verbindlich ist jeweils die vollständig überarbeitete amtliche Version der Klassifikation.
+
+Einfügungen sind rot und unterstrichen dargestellt, Löschungen blau und durchgestrichen.

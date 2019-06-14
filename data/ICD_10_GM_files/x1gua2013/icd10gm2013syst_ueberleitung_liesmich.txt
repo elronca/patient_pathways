@@ -1,0 +1,117 @@
+﻿ICD-10-GM, Systematisches Verzeichnis
+
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013              (OID 1.2.276.0.76.5.413)
+Systematisches Verzeichnis Überleitungstabelle zwischen Version 2012 und Version 2013  ASCII
+
+Herausgabe der Klassifikation:       21.09.2012
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+INHALT DES ZIP-FILES  x1gua2013.zip:
+
+  - icd10gm2013syst_ueberleitung_liesmich.txt
+
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - Ordner KLASSIFIKATIONSDATEIEN
+    icd10gm2012syst.txt
+    icd10gm2013syst.txt
+    icd10gm2013syst_umsteiger_2012_2013.txt
+
+  - Ordner ZUSATZDATEIEN
+    icd10gm2013syst_01_vor_titelblatt.odt
+    icd10gm2013syst_02_vor_inhaltsverzeichnis.odt
+    icd10gm2013syst_03_vor_anleitung_zur_verschluesselung.odt
+    icd10gm2013syst_04_vor_kommentar.odt
+    icd10gm2013syst_05_anh_morphologie_neubildungen.odt
+    icd10gm2013syst_06_anh_barthelindex.odt
+    icd10gm2013syst_07_anh_erwbarthelindex.odt
+    icd10gm2013syst_08_anh_frb_schoenle.odt
+    icd10gm2013syst_09_anh_fim.odt
+    icd10gm2013syst_10_anh_mmse.odt
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+DATENSATZBESCHREIBUNG
+
+Die Klassifikationsdateien liegen in UTF-8 vor.
+
+Tabellenübersicht
+
+--> Tabelle ICD10V2013, Datei icd10gm2013syst.txt
+
+Enthält die Schlüsselnummern und Klassentitel der ICD-10-GM Version 2013. 
+Felder:
+
+  Code2013    - Schlüsselnummer ICD-10-GM Version 2013
+  Titel2013   - Klassentitel ICD-10-GM Version 2013
+
+--> Tabelle ICD10V2012, Datei icd10gm2012syst.txt
+
+Enthält die Schlüsselnummern und Klassentitel der ICD-10-GM Version 2012.
+Felder:
+
+  Code2012    - Schlüsselnummer ICD-10-GM Version 2012
+  Titel2012   - Klassentitel ICD-10-GM Version 2012
+
+--> Tabelle UMSTEIGER, Datei icd10gm2013syst_umsteiger_2012_2013.txt
+
+Enthält den Umsteiger zwischen Version 2012 und Version 2013. Felder:
+
+  Feld 1    - Schlüsselnummer Version 2012
+  Feld 2    - Schlüsselnummer Verison 2013
+  Feld 3    - "A" bei automatischer Überleitbarkeit von Version 2012 nach Version 2013, sonst leer
+  Feld 4    - "A" bei automatischer Überleitbarkeit von Version 2013 nach Version 2012, sonst leer
+
+
+=========================================================================
+
+Aufbau einer relationalen Datenbank aus den Einzeldateien:
+
+=========================================================================
+
+Der Aufbau der Datenbank aus Einzeltabellen und deren Verknüpfung über Fremdschlüssel werden hier mit SQL (Structured Query Language) beschrieben. Sie wurde mit einer aktuellen Version von Microsoft Access getestet.
+Eventuell müssen Sie diese Anweisungen an Ihr relationales Datenbanksystem anpassen, da die Realisierung des SQL-Standards von System zu System variiert.
+
+Geben Sie der Reihe nach die folgenden SQL-Anweisungen zum Aufbau der einzelnen Tabellen ein:
+
+CREATE TABLE ICD10V2012 (
+     Code2012   Text(7)    CONSTRAINT Code2012 PRIMARY KEY,
+     Titel2012  Text(255)  
+) ;
+
+CREATE TABLE ICD10V2013 (
+     Code2013   Text(7)    CONSTRAINT Code2013X PRIMARY KEY,
+     Titel2013  Text(255)  
+) ;
+
+CREATE TABLE UMSTEIGER (
+     Code2012       Text(7) CONSTRAINT UICD2012  REFERENCES ICD10V2012,
+     Code2013       Text(7) CONSTRAINT UICD2013  REFERENCES ICD10V2013,
+     Auto2012_2013  Text(1),
+     Auto2013_2012  Text(1)
+) ;
+
+Importieren Sie dann die Eingabedateien in der angegebenen Reihenfolge in die Tabellen. Teilen Sie dazu Ihrem Datenbanksystem mit, dass die einzelnen Werte durch Semikolon (;) getrennt sind.
+
+icd10gm2013syst.txt                         --> ICD10V2013
+icd10gm2012syst.txt                         --> ICD10V2012
+icd10gm2013syst_umsteiger_2012_2013.txt     --> UMSTEIGER

@@ -1,0 +1,40 @@
+ICD-10-GM, Systematisches Verzeichnis
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013           (OID 1.2.276.0.76.5.413)
+Systematisches Verzeichnis Buchfassung PDF
+
+Herausgabe der Klassifikation:    21.09.2012
+
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+INHALT DES ZIP-FILES  x1gbp2013.zip:
+
+  - icd10gm2013syst_pdf_liesmich.txt
+
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - KLASSIFIKATIONSDATEI
+    icd10gm2013syst_odt_20120921.pdf
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Die Klassifikationsdatei enthält das vollständige Systematische Verzeichnis zur ICD-10-GM Version 2013 einschließlich sämtlicher Zusatzdateien (z.B. Anleitung zur Verschlüsselung, Kommentar und Anhänge). Diese Datei ist die kostenfreie Referenzdatei zur ICD-10-GM.
+

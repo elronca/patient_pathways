@@ -1,0 +1,90 @@
+﻿ICD-10-GM,Systematisches Verzeichnis
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013      (OID 1.2.276.0.76.5.413)
+Systematisches Verzeichnis  Buchfassung HTML
+
+Herausgabe der Klassifikation:    21.09.2012
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+INHALT DES ZIP-FILES  x1gbh2013.zip:
+
+  - icd10gm2013syst_html_liesmich.txt
+
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - Ordner KLASSIFIKATIONSDATEIEN 
+    arrow-up.gif        
+    block-a00-a09.htm
+    block-a15-a19.htm
+    block-a20-a28.htm
+    ...
+    ...
+    ...
+    block-z70-z76.htm
+    block-z80-z99.htm
+
+    chapter-i-htm
+    chapter-ii-htm
+    ...
+    ...
+    ...
+    chapter-xxi-htm
+    chapter-xxii-htm
+
+    codesearch.js
+    header.jpg
+    index.htm
+    logo.gif
+    modifierList.js
+    styles.css
+    styles-ie.css
+
+    zusatz-00-additionalinfo.htm
+    zusatz-03-anleitung-zur-verschluesselung.htm
+    zusatz-04-kommentar.htm
+    zusatz-05-morphologie-neubildungen.htm
+    zusatz-06-barthelindex.htm
+    zusatz-07-erwbarthelindex.htm
+    zusatz-08-frb-schoenle.htm
+    zusatz-09-fim.htm
+    zusatz-10-mmse.htm
+    zusatz-mmse-schaubild.jpg
+    
+
+  - Ordner ZUSATZDATEIEN 
+    icd10gm2013syst_01_vor_titelblatt.odt
+    icd10gm2013syst_02_vor_inhaltsverzeichnis.odt
+    icd10gm2013syst_03_vor_anleitung_zur_verschluesselung.odt
+    icd10gm2013syst_04_vor_kommentar.odt
+    icd10gm2013syst_05_anh_morphologie_neubildungen.odt
+    icd10gm2013syst_06_anh_barthelindex.odt
+    icd10gm2013syst_07_anh_erwbarthelindex.odt
+    icd10gm2013syst_08_anh_frb_schoenle.odt
+    icd10gm2013syst_09_anh_fim.odt
+    icd10gm2013syst_10_anh_mmse.odt
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Der Ordner Klassifikationsdateien enthält die Dateien der Krankheitsgruppen (block-) und Kapitelvorspänne (chapter-), die Zusatzdateien als HTML-Dateien (zusatz-) sowie  die Dateien für die Suchfunktion und das Layout für die Browserfassung der ICD-10-GM; alle Dateien liegen in UTF-8 vor.
+Speichern Sie den Ordner lokal, entzippen Sie das Archiv und starten Sie mit der Datei "index.htm".
+
+Achtung: 
+Für das reibungslose Funktionieren der Kodesuche muss in den Einstellungen Ihres Browsers JavaScript aktiviert sein.
+Bei einigen Browserversionen (z.B. bei einigen älteren Internet-Explorer-Versionen) verschwinden beim Scrollen nach unten Kodesuche und Navigationselemente aus der Bildschirmansicht. Aktualisieren Sie ggf. Ihren Browser oder weichen Sie auf einen anderen Browser aus.  

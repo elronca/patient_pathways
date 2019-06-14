@@ -1,0 +1,41 @@
+   ============================================================================
+                     Sehschärfe mit bestmöglicher Korrektur (in Ferne)
+     Stufen          ----------------------------------------------------------
+                     gleich oder geringer als:     höher als:
+   ============================================================================
+
+       0                                            6/18                            
+   leichte oder                                     3/10  (0,3)                     
+   keine Sehbeein-                                 20/70                           
+   trächtigung
+
+       1              6/18                          6/60
+   mittelschwere      3/10 (0,3)                    1/10  (0,1)
+   Sehbeein-         20/70                         20/200
+   trächtigung
+      
+       2              6/60                          3/60
+   schwere            1/10 (0,1)                    1/20  (0,05)
+   Sehbeein-         20/200                        20/400  
+   trächtigung
+    
+       3              3/60                          1/60  Fingerzählen bei 1 m)
+   hochgradige        1/20 (0,05)                   1/50 (0,02)
+   Sehbehinderung    20/400                         5/300 20/1200) 
+   
+       4              1/60 (Fingerzählen bei 1 m)  Lichtwahrnehmung
+   Blindheit          1/50 (0,02)
+                      5/300
+   ============================================================================
+       5                        keine Lichtwahrnehmung 
+   Blindheit
+
+       9                 unbestimmt oder nicht näher bezeichnet
+   ============================================================================
+
+
+
+
+
+ 
+

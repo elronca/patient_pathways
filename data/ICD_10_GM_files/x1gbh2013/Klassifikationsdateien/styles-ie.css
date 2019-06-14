@@ -1,0 +1,18 @@
+/* ######## IE <= 7 ################################### */
+
+#classicont dl.BlockList span.label,
+#classicont dl.ListClassesWithUsage span.label { margin-left:0; float:left; }
+
+
+/* ######## IE < 7 ################################### */
+
+* html #seitenbreite {
+	width:1000px;  /* 1000px = Maximum IE6@1024x768, falls folgende Berechnung clientseitig geblockt */
+	width:expression(document.body.clientWidth > 1000? "1000px": "auto" );
+}
+
+/* dl.ModifierBlock>dt, --- not supported by IE<7 */
+/* dl.ModifierBlock>dd { margin:.5em 0; } --- not supported by IE<7*/
+
+* html #classicont dl.ModifierBlock dt { display:none; }
+* html #classicont dl.ModifierBlock * dt { display:block; }

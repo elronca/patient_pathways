@@ -1,0 +1,774 @@
+﻿Variable;Bezeichnung;Description;Variable_sas;Bemerkungen/Remarques;geliefert (1=ja,0= nein)
+_ID;Anonyme Fallnummer;Numéro du cas (anonyme);_ID;;1
+0.0.V01;Jahr;Année;_0_0_V01;;1
+0.0.V02;Typologie;Typologie de l’établissement ;_0_0_V02;TYPO (CD-ROM A);1
+0.0.V05_1;Aufenthaltsdauer (OECD);Durée de séjour (OECD);_0_0_V05_1;Anzahl Tage + 1;1
+0.0.V05_2;Aufenthaltsdauer (SwissDRG);Durée de séjour (SwissDRG);_0_0_V05_2;;1
+0.0.V06;Tage bis zur nächsten Hospitalisierung;Nb de jours avant la prochaine hospitalisation;_0_0_V06;;1
+0.0.V07;Tage bis zur nächsten teilstat. Hospitalisierung;Nombre de jours jusqu'à la prochaine hospitalisation (mi-stationnaire).;_0_0_V07;;1
+0.0.V08;Tage bis zur nächsten ambul. Hospitalisierung;Nombre de jours jusqu'à la prochaine hospitalisation (ambulatoire);_0_0_V08;;1
+0.0.V09;Zeitdauer zwischen Eintritt und Hauptbehandlung;Délai entre date d'admission et début du traitement;_0_0_V09;Anzahl Tage;1
+0.0.V10;Sequenznummer;No de séquence;_0_0_V10;;1
+0.0.V11;Alter in Tagen für < Einjährige;L'âge en jours pour les < 1 an;_0_0_V11;Anzahl Tage + 1;1
+0.0.V12;Schweizer - Nicht-Schweizer;Suisse - non Suisse;_0_0_V12;;1
+0.0.V13;SDRG;SDRG;_0_0_V13;Version Abrechnung (3M Grouper) / Version tarification(grouper 3M);1
+0.0.V14;APDRG/SPG;APDRG;_0_0_V14;Bis 2011;1
+0.0.V15;Alter der Mutter;Age de la mère à l’admission;_0_0_V15;;0
+0.1.V01;Rekordart;Type de relevé;_0_1_V01;;1
+0.1.V02a*;Anonyme Betriebsnummer;N°de l’établissement (anonyme);_0_1_V02a;TYPO (CD-ROM A);1
+0.1.V04;Kanton;Canton de l’établissement;_0_1_V04;GEO (CD-ROM B);0
+0.2.V01a;Anonyme Patientennummer;Numéro de patient (anonyme);_0_2_V01a;;1
+0.2.V02;Kennzeichnung des Statistikfalls;Type de relevé;_0_2_V02;;1
+0.3.V01;Neugeborenen-Datensatz;Questionnaire nouveau-nés;_0_3_V01;;0
+0.3.V02;Psychiatrie-Datensatz;Questionnaire psychiatrique;_0_3_V02;;0
+0.3.V03;Patientengruppen-Datensatz;Questionnaie groupe de patients;_0_3_V03;;1
+1.1.V01;Geschlecht;Sexe;_1_1_V01;;1
+1.1.V03;Alter bei Eintritt;Age à l’admission;_1_1_V03;;1
+1.1.V035JK;Alter bei Eintritt (5 Jahre Klasse);Age à l’admission (classe d'âge 5 ans);_1_1_V035JK;;0
+1.1.V04;Wohnort (Region);Région de domicile;_1_1_V04;GEO (CD-ROM B);0
+1.2.V01M;Eintrittsmonat;Mois d'entrée;_1_2_V01M;;1
+1.2.V02;Aufenthaltsort vor dem Eintritt;Séjour avant l’admission;_1_2_V02;;1
+1.2.V03;Eintrittsart;Mode d’admission;_1_2_V03;;1
+1.2.V04;Einweisende Instanz;Décision d’envoi;_1_2_V04;;1
+1.3.V01;Behandlungsart;Type de prise en charge;_1_3_V01;;1
+1.3.V02;Klasse;Classe;_1_3_V02;;1
+1.3.V03;Aufenthalt in Intensivmedizin (in Stunden);Séjour en soins intensifs;_1_3_V03;;1
+1.3.V04;Administrativer Urlaub & Ferien (in Stunden);Vacances, congés administratifs;_1_3_V04;;1
+1.4.V01;Hauptkostenstelle;Centre de prise en charge des coûts;_1_4_V01;;1
+1.4.V02;Hauptkostenträger für Grundversicherungsleistungen;Prise en charge des soins de base;_1_4_V02;;1
+1.5.V02;Entscheid für Austritt;Décision de sortie;_1_5_V02;;1
+1.5.V03;Aufenthalt nach Austritt;Séjour après la sortie;_1_5_V03;;1
+1.5.V04;Behandlung nach Austritt;Prise en charge après la sortie;_1_5_V04;;1
+2.1.V01;Rekordart;Type de relevé;_2_1_V01;;0
+2.1.V03;Geburtszeitpunkt;Heure de la naissance;_2_1_V03;;0
+2.2.V01;Vitalstatus;Etat à la naissance;_2_2_V01;;0
+2.2.V02;Mehrling;Naissance multiple;_2_2_V02;;0
+2.2.V03;Geburtsrang;Rang à la naissance;_2_2_V03;;0
+2.2.V04;Geburtsgewicht;Poids à la naissance;_2_2_V04;;0
+2.2.V05;Körperlänge;Longueur;_2_2_V05;;0
+2.2.V06;Kongenitale Missbildungen;Malformations congénitales;_2_2_V06;;0
+2.2.V07;Verlegung;Transfert;_2_2_V07;;0
+2.3.V02;Gestationsalter 1;Durée de la grossesse 1;_2_3_V02;;0
+2.3.V03;Gestationsalter 2;Durée de la grossesse 2;_2_3_V03;;0
+2.3.V04;Anzahl vorausgegangener Schwangerschaften insgesamt;Total des grossesses précédentes;_2_3_V04;;0
+2.3.V05;Anzahl vorausgegangener Lebendgeburten;Nombre des naissances viv. précédentes;_2_3_V05;;0
+2.3.V06;Anzahl vorausgegangener Fehl- oder Totgeburten;Nombre des fausses couches ou des morti-naissances précédentes;_2_3_V06;;0
+2.3.V07;Anzahl vorausgegangener Schwangerschaftsabbrüche;Nombre des interruptions de grossesse;_2_3_V07;;0
+2.3.V08;Verlegung Mutter aus anderem Spital;Transfert (mère);_2_3_V08;;0
+3.1.V01;Rekordart;Type de relevé;_3_1_V01;;0
+3.2.V01;Zivilstand;Etat civil (psychiatrie);_3_2_V01;;0
+3.2.V02;Aufenthaltsort vor dem Eintritt (Psychiatrie);Séjour avant l'admission (psychiatrie);_3_2_V02;;0
+3.2.V03;Beschäftigung vor Eintritt: teilzeit erwerbstätig;Occupation, travail à temps partiel (psy.);_3_2_V03;;0
+3.2.V04;Beschäftigung vor Eintritt: voll erwerbstätig;Occupation, travail à plein temps (psy.);_3_2_V04;;0
+3.2.V05;Beschäftigung vor Eintritt: nicht erwerbstätig oder arbeitslos;Non occupé(e) ou au chômage (psy.);_3_2_V05;;0
+3.2.V06;Beschäftigung vor Eintritt: Hausarbeit in eigenem Haushalt;Travail ménager à son domicile (psy.);_3_2_V06;;0
+3.2.V07;Beschäftigung vor Eintritt: in Ausbildung (Schule, Lehre, Studium);En formation (école, apprentissage, études) (psy.);_3_2_V07;;0
+3.2.V08;Beschäftigung vor Eintritt: Rehabilitationsprogramm;Pde réadaptation (psy.);_3_2_V08;;0
+3.2.V09;Beschäftigung vor Eintritt: IV, AHV oder andere Rente;Occupation, AI, AVS ou autre rente (psy.);_3_2_V09;;0
+3.2.V10;Beschäftigung vor Eintritt: Arbeit in geschütztem oder beschützendem Rahmen;Travail dans un cadre protégé (psy.);_3_2_V10;;0
+3.2.V11;Beschäftigung vor Eintritt: unbekannt;Occupation, inconnu (psy.);_3_2_V11;;0
+3.2.V12;Höchste abgeschlossene Schul- oder Berufsbildung;Formation scolaire ou prof. la plus élevée;_3_2_V12;;0
+3.3.V01;Einweisende Instanz (Psychiatrie);Décision d'envoi (psychiatrie);_3_3_V01;;0
+3.3.V02;Freiwilligkeit;Entrée volontaire (psychiatrie);_3_3_V02;;0
+3.3.V03;Fürsorgerischer Freiheitsentzug;Internement préventif;_3_3_V03;;0
+3.4.V01;Anzahl Tage / Konsultationen;Nombre de jours / de consultations;_3_4_V01;;0
+3.4.V02;Behandlung (Was wurde gemacht);Traitement (psychiatrie);_3_4_V02;;0
+3.4.V03;Psychopharmakotherapie: Neuroleptika;Neuroleptiques (psychiatrie);_3_4_V03;;0
+3.4.V04;Psychopharmakotherapie: Depotneuroleptika;Neuroleptiques-dépôt (psychiatrie);_3_4_V04;;0
+3.4.V05;Psychopharmakotherapie: Antidepressiva;Antidépresseurs (psychiatrie);_3_4_V05;;0
+3.4.V06;Psychopharmakotherapie: Tranquilizer;Tranquillisants (psychiatrie);_3_4_V06;;0
+3.4.V07;Psychopharmakotherapie: Hypnotika;Hypnotiques (psychiatrie);_3_4_V07;;0
+3.4.V08;Psychopharmakotherapie: Antiepileptika;Antiépileptiques (psychiatrie);_3_4_V08;;0
+3.4.V09;Psychopharmakotherapie: Lithium;Lithium (psychiatrie);_3_4_V09;;0
+3.4.V10;Psychopharmakotherapie: Suchtsubstitutionsmittel (z.B. Methadon);Thérapie de substitution (méthadone, etc.);_3_4_V10;;0
+3.4.V11;Psychopharmakotherapie: Suchtaversionsmittel (z.B. Antabus, Nemexin);Antagonistes (antabuse, némexine, etc.);_3_4_V11;;0
+3.4.V12;Psychopharmakotherapie: Antiparkinsonmittel;Antiparkinsoniens (psychiatrie);_3_4_V12;;0
+3.4.V13;Psychopharmakotherapie: andere;Pharmacothérapie, Autres (psychiatrie);_3_4_V13;;0
+3.4.V14;Psychopharmakotherapie: Medikamente zur Behandlung körperlicher Leiden;Médicaments non- psychopharmacotiques;_3_4_V14;;0
+3.5.V01;Entscheid für Austritt (Psychiatrie);Décision de sortie (psychiatrie);_3_5_V01;;0
+3.5.V02;Aufenthalt nach Austritt (Psychiatrie);Séjour après la sortie (psychiatrie);_3_5_V02;;0
+3.5.V03;Behandlung nach Austritt (Psychiatrie);Prise en charge après la sortie (psychiatrie);_3_5_V03;;0
+4.1.V01;Rekordart;Type de relevé;_4_1_V01;;1
+4.2.V010;MD-Hauptdiagnose;Diagnostic principal;_4_2_V010;;1
+4.2.V011;Seitigkeit der;Latéralité pour le diagnostic principal;_4_2_V011;;1
+4.2.V012;Tumoraktivität der;Activité de la tumeur du diagnostic principal;_4_2_V012;;1
+4.2.V020;MD-Zusatz zu Hauptdiagnose;Complément au diagnostic principal;_4_2_V020;;1
+4.2.V030;MD 1.Nebendiagnose;1er diagnostic supplémentaire;_4_2_V030;;1
+4.2.V031;Seitigkeit 1.Nebendiagnose;Latéralité du  1er diagnostic supplémentaire;_4_2_V031;;1
+4.2.V032;Tumoraktivität 1.Nebendiagnose;Activité de la tumeur pour le  1er diagnostic supplémentaire;_4_2_V032;;1
+4.2.V040;MD 2.Nebendiagnose;2e diagnostic supplémentaire;_4_2_V040;;1
+4.2.V041;Seitigkeit 2.Nebendiagnose;Latéralité du  2e diagnostic supplémentaire;_4_2_V041;;1
+4.2.V042;Tumoraktivität 2.Nebendiagnose;Activité de la tumeur pour le  2e diagnostic supplémentaire;_4_2_V042;;1
+4.2.V050;MD 3.Nebendiagnose;3e diagnostic supplémentaire;_4_2_V050;;1
+4.2.V051;Seitigkeit 3.Nebendiagnose;Latéralité du  3e diagnostic supplémentaire;_4_2_V051;;1
+4.2.V052;Tumoraktivität 3.Nebendiagnose;Activité de la tumeur pour le  3e diagnostic supplémentaire;_4_2_V052;;1
+4.2.V060;MD 4.Nebendiagnose;4e diagnostic supplémentaire;_4_2_V060;;1
+4.2.V061;Seitigkeit 4.Nebendiagnose;Latéralité du  4e diagnostic supplémentaire;_4_2_V061;;1
+4.2.V062;Tumoraktivität 4.Nebendiagnose;Activité de la tumeur pour le  4e diagnostic supplémentaire;_4_2_V062;;1
+4.2.V070;MD 5.Nebendiagnose;5e diagnostic supplémentaire;_4_2_V070;;1
+4.2.V071;Seitigkeit 5.Nebendiagnose;Latéralité du  5e diagnostic supplémentaire;_4_2_V071;;1
+4.2.V072;Tumoraktivität 5.Nebendiagnose;Activité de la tumeur pour le  5e diagnostic supplémentaire;_4_2_V072;;1
+4.2.V080;MD 6.Nebendiagnose;6e diagnostic supplémentaire;_4_2_V080;;1
+4.2.V081;Seitigkeit 6.Nebendiagnose;Latéralité du  6e diagnostic supplémentaire;_4_2_V081;;1
+4.2.V082;Tumoraktivität 6.Nebendiagnose;Activité de la tumeur pour le  6e diagnostic supplémentaire;_4_2_V082;;1
+4.2.V090;MD 7.Nebendiagnose;7e diagnostic supplémentaire;_4_2_V090;;1
+4.2.V091;Seitigkeit 7.Nebendiagnose;Latéralité du  7e diagnostic supplémentaire;_4_2_V091;;1
+4.2.V092;Tumoraktivität 7.Nebendiagnose;Activité de la tumeur pour le  7e diagnostic supplémentaire;_4_2_V092;;1
+4.2.V100;MD 8.Nebendiagnose;8e diagnostic supplémentaire;_4_2_V100;;1
+4.2.V101;Seitigkeit 8.Nebendiagnose;Latéralité du  8e diagnostic supplémentaire;_4_2_V101;;1
+4.2.V102;Tumoraktivität 8.Nebendiagnose;Activité de la tumeur pour le  8e diagnostic supplémentaire;_4_2_V102;;1
+4.2.V110;MD 9.Nebendiagnose;9e diagnostic supplémentaire;_4_2_V110;;1
+4.2.V111;Seitigkeit 9.Nebendiagnose;Latéralité du  9e diagnostic supplémentaire;_4_2_V111;;1
+4.2.V112;Tumoraktivität 9.Nebendiagnose;Activité de la tumeur pour le  9e diagnostic supplémentaire;_4_2_V112;;1
+4.2.V120;MD 10.Nebendiagnose;10e diagnostic supplémentaire;_4_2_V120;;1
+4.2.V121;Seitigkeit 10.Nebendiagnose;Latéralité du  10e diagnostic supplémentaire;_4_2_V121;;1
+4.2.V122;Tumoraktivität 10.Nebendiagnose;Activité de la tumeur pour le  10e diagnostic supplémentaire;_4_2_V122;;1
+4.2.V130;MD 11.Nebendiagnose;11e diagnostic supplémentaire;_4_2_V130;;1
+4.2.V131;Seitigkeit 11.Nebendiagnose;Latéralité du  11e diagnostic supplémentaire;_4_2_V131;;1
+4.2.V132;Tumoraktivität 11.Nebendiagnose;Activité de la tumeur pour le  11e diagnostic supplémentaire;_4_2_V132;;1
+4.2.V140;MD 12.Nebendiagnose;12e diagnostic supplémentaire;_4_2_V140;;1
+4.2.V141;Seitigkeit 12.Nebendiagnose;Latéralité du  12e diagnostic supplémentaire;_4_2_V141;;1
+4.2.V142;Tumoraktivität 12.Nebendiagnose;Activité de la tumeur pour le  12e diagnostic supplémentaire;_4_2_V142;;1
+4.2.V150;MD 13.Nebendiagnose;13e diagnostic supplémentaire;_4_2_V150;;1
+4.2.V151;Seitigkeit 13.Nebendiagnose;Latéralité du  13e diagnostic supplémentaire;_4_2_V151;;1
+4.2.V152;Tumoraktivität 13.Nebendiagnose;Activité de la tumeur pour le  13e diagnostic supplémentaire;_4_2_V152;;1
+4.2.V160;MD 14.Nebendiagnose;14e diagnostic supplémentaire;_4_2_V160;;1
+4.2.V161;Seitigkeit 14.Nebendiagnose;Latéralité du  14e diagnostic supplémentaire;_4_2_V161;;1
+4.2.V162;Tumoraktivität 14.Nebendiagnose;Activité de la tumeur pour le  14e diagnostic supplémentaire;_4_2_V162;;1
+4.2.V170;MD 15.Nebendiagnose;15e diagnostic supplémentaire;_4_2_V170;;1
+4.2.V171;Seitigkeit 15.Nebendiagnose;Latéralité du  15e diagnostic supplémentaire;_4_2_V171;;1
+4.2.V172;Tumoraktivität 15.Nebendiagnose;Activité de la tumeur pour le  15e diagnostic supplémentaire;_4_2_V172;;1
+4.2.V180;MD 16.Nebendiagnose;16e diagnostic supplémentaire;_4_2_V180;;1
+4.2.V181;Seitigkeit 16.Nebendiagnose;Latéralité du  16e diagnostic supplémentaire;_4_2_V181;;1
+4.2.V182;Tumoraktivität 16.Nebendiagnose;Activité de la tumeur pour le  16e diagnostic supplémentaire;_4_2_V182;;1
+4.2.V190;MD 17.Nebendiagnose;17e diagnostic supplémentaire;_4_2_V190;;1
+4.2.V191;Seitigkeit 17.Nebendiagnose;Latéralité du  17e diagnostic supplémentaire;_4_2_V191;;1
+4.2.V192;Tumoraktivität 17.Nebendiagnose;Activité de la tumeur pour le  17e diagnostic supplémentaire;_4_2_V192;;1
+4.2.V200;MD 18.Nebendiagnose;18e diagnostic supplémentaire;_4_2_V200;;1
+4.2.V201;Seitigkeit 18.Nebendiagnose;Latéralité du  18e diagnostic supplémentaire;_4_2_V201;;1
+4.2.V202;Tumoraktivität 18.Nebendiagnose;Activité de la tumeur pour le  18e diagnostic supplémentaire;_4_2_V202;;1
+4.2.V210;MD 19.Nebendiagnose;19e diagnostic supplémentaire;_4_2_V210;;1
+4.2.V211;Seitigkeit 19.Nebendiagnose;Latéralité du  19e diagnostic supplémentaire;_4_2_V211;;1
+4.2.V212;Tumoraktivität 19.Nebendiagnose;Activité de la tumeur pour le  19e diagnostic supplémentaire;_4_2_V212;;1
+4.2.V220;MD 20.Nebendiagnose;20e diagnostic supplémentaire;_4_2_V220;;1
+4.2.V221;Seitigkeit 20.Nebendiagnose;Latéralité du  20e diagnostic supplémentaire;_4_2_V221;;1
+4.2.V222;Tumoraktivität 20.Nebendiagnose;Activité de la tumeur pour le  20e diagnostic supplémentaire;_4_2_V222;;1
+4.2.V230;MD 21.Nebendiagnose;21e diagnostic supplémentaire;_4_2_V230;;1
+4.2.V231;Seitigkeit 21.Nebendiagnose;Latéralité du  21e diagnostic supplémentaire;_4_2_V231;;1
+4.2.V232;Tumoraktivität 21.Nebendiagnose;Activité de la tumeur pour le  21e diagnostic supplémentaire;_4_2_V232;;1
+4.2.V240;MD 22.Nebendiagnose;22e diagnostic supplémentaire;_4_2_V240;;1
+4.2.V241;Seitigkeit 22.Nebendiagnose;Latéralité du  22e diagnostic supplémentaire;_4_2_V241;;1
+4.2.V242;Tumoraktivität 22.Nebendiagnose;Activité de la tumeur pour le  22e diagnostic supplémentaire;_4_2_V242;;1
+4.2.V250;MD 23.Nebendiagnose;23e diagnostic supplémentaire;_4_2_V250;;1
+4.2.V251;Seitigkeit 23.Nebendiagnose;Latéralité du  23e diagnostic supplémentaire;_4_2_V251;;1
+4.2.V252;Tumoraktivität 23.Nebendiagnose;Activité de la tumeur pour le  23e diagnostic supplémentaire;_4_2_V252;;1
+4.2.V260;MD 24.Nebendiagnose;24e diagnostic supplémentaire;_4_2_V260;;1
+4.2.V261;Seitigkeit 24.Nebendiagnose;Latéralité du  24e diagnostic supplémentaire;_4_2_V261;;1
+4.2.V262;Tumoraktivität 24.Nebendiagnose;Activité de la tumeur pour le  24e diagnostic supplémentaire;_4_2_V262;;1
+4.2.V270;MD 25.Nebendiagnose;25e diagnostic supplémentaire;_4_2_V270;;1
+4.2.V271;Seitigkeit 25.Nebendiagnose;Latéralité du  25e diagnostic supplémentaire;_4_2_V271;;1
+4.2.V272;Tumoraktivität 25.Nebendiagnose;Activité de la tumeur pour le  25e diagnostic supplémentaire;_4_2_V272;;1
+4.2.V280;MD 26.Nebendiagnose;26e diagnostic supplémentaire;_4_2_V280;;1
+4.2.V281;Seitigkeit 26.Nebendiagnose;Latéralité du  26e diagnostic supplémentaire;_4_2_V281;;1
+4.2.V282;Tumoraktivität 26.Nebendiagnose;Activité de la tumeur pour le  26e diagnostic supplémentaire;_4_2_V282;;1
+4.2.V290;MD 27.Nebendiagnose;27e diagnostic supplémentaire;_4_2_V290;;1
+4.2.V291;Seitigkeit 27.Nebendiagnose;Latéralité du  27e diagnostic supplémentaire;_4_2_V291;;1
+4.2.V292;Tumoraktivität 27.Nebendiagnose;Activité de la tumeur pour le  27e diagnostic supplémentaire;_4_2_V292;;1
+4.2.V300;MD 28.Nebendiagnose;28e diagnostic supplémentaire;_4_2_V300;;1
+4.2.V301;Seitigkeit 28.Nebendiagnose;Latéralité du  28e diagnostic supplémentaire;_4_2_V301;;1
+4.2.V302;Tumoraktivität 28.Nebendiagnose;Activité de la tumeur pour le  28e diagnostic supplémentaire;_4_2_V302;;1
+4.2.V310;MD 29.Nebendiagnose;29e diagnostic supplémentaire;_4_2_V310;;1
+4.2.V311;Seitigkeit 29.Nebendiagnose;Latéralité du  29e diagnostic supplémentaire;_4_2_V311;;1
+4.2.V312;Tumoraktivität 29.Nebendiagnose;Activité de la tumeur pour le  29e diagnostic supplémentaire;_4_2_V312;;1
+4.2.V320;MD 30.Nebendiagnose;30e diagnostic supplémentaire;_4_2_V320;;1
+4.2.V321;Seitigkeit 30.Nebendiagnose;Latéralité du  30e diagnostic supplémentaire;_4_2_V321;;1
+4.2.V322;Tumoraktivität 30.Nebendiagnose;Activité de la tumeur pour le  30e diagnostic supplémentaire;_4_2_V322;;1
+4.2.V330;MD 31.Nebendiagnose;31e diagnostic supplémentaire;_4_2_V330;;1
+4.2.V331;Seitigkeit 31.Nebendiagnose;Latéralité du  31e diagnostic supplémentaire;_4_2_V331;;1
+4.2.V332;Tumoraktivität 31.Nebendiagnose;Activité de la tumeur pour le  31e diagnostic supplémentaire;_4_2_V332;;1
+4.2.V340;MD 32.Nebendiagnose;32e diagnostic supplémentaire;_4_2_V340;;1
+4.2.V341;Seitigkeit 32.Nebendiagnose;Latéralité du  32e diagnostic supplémentaire;_4_2_V341;;1
+4.2.V342;Tumoraktivität 32.Nebendiagnose;Activité de la tumeur pour le  32e diagnostic supplémentaire;_4_2_V342;;1
+4.2.V350;MD 33.Nebendiagnose;33e diagnostic supplémentaire;_4_2_V350;;1
+4.2.V351;Seitigkeit 33.Nebendiagnose;Latéralité du  33e diagnostic supplémentaire;_4_2_V351;;1
+4.2.V352;Tumoraktivität 33.Nebendiagnose;Activité de la tumeur pour le  33e diagnostic supplémentaire;_4_2_V352;;1
+4.2.V360;MD 34.Nebendiagnose;34e diagnostic supplémentaire;_4_2_V360;;1
+4.2.V361;Seitigkeit 34.Nebendiagnose;Latéralité du  34e diagnostic supplémentaire;_4_2_V361;;1
+4.2.V362;Tumoraktivität 34.Nebendiagnose;Activité de la tumeur pour le  34e diagnostic supplémentaire;_4_2_V362;;1
+4.2.V370;MD 35.Nebendiagnose;35e diagnostic supplémentaire;_4_2_V370;;1
+4.2.V371;Seitigkeit 35.Nebendiagnose;Latéralité du  35e diagnostic supplémentaire;_4_2_V371;;1
+4.2.V372;Tumoraktivität 35.Nebendiagnose;Activité de la tumeur pour le  35e diagnostic supplémentaire;_4_2_V372;;1
+4.2.V380;MD 36.Nebendiagnose;36e diagnostic supplémentaire;_4_2_V380;;1
+4.2.V381;Seitigkeit 36.Nebendiagnose;Latéralité du  36e diagnostic supplémentaire;_4_2_V381;;1
+4.2.V382;Tumoraktivität 36.Nebendiagnose;Activité de la tumeur pour le  36e diagnostic supplémentaire;_4_2_V382;;1
+4.2.V390;MD 37.Nebendiagnose;37e diagnostic supplémentaire;_4_2_V390;;1
+4.2.V391;Seitigkeit 37.Nebendiagnose;Latéralité du  37e diagnostic supplémentaire;_4_2_V391;;1
+4.2.V392;Tumoraktivität 37.Nebendiagnose;Activité de la tumeur pour le  37e diagnostic supplémentaire;_4_2_V392;;1
+4.2.V400;MD 38.Nebendiagnose;38e diagnostic supplémentaire;_4_2_V400;;1
+4.2.V401;Seitigkeit 38.Nebendiagnose;Latéralité du  38e diagnostic supplémentaire;_4_2_V401;;1
+4.2.V402;Tumoraktivität 38.Nebendiagnose;Activité de la tumeur pour le  38e diagnostic supplémentaire;_4_2_V402;;1
+4.2.V410;MD 39.Nebendiagnose;39e diagnostic supplémentaire;_4_2_V410;;1
+4.2.V411;Seitigkeit 39.Nebendiagnose;Latéralité du  39e diagnostic supplémentaire;_4_2_V411;;1
+4.2.V412;Tumoraktivität 39.Nebendiagnose;Activité de la tumeur pour le  39e diagnostic supplémentaire;_4_2_V412;;1
+4.2.V420;MD 40.Nebendiagnose;40e diagnostic supplémentaire;_4_2_V420;;1
+4.2.V421;Seitigkeit 40.Nebendiagnose;Latéralité du  40e diagnostic supplémentaire;_4_2_V421;;1
+4.2.V422;Tumoraktivität 40.Nebendiagnose;Activité de la tumeur pour le  40e diagnostic supplémentaire;_4_2_V422;;1
+4.2.V430;MD 41.Nebendiagnose;41e diagnostic supplémentaire;_4_2_V430;;1
+4.2.V431;Seitigkeit 41.Nebendiagnose;Latéralité du  41e diagnostic supplémentaire;_4_2_V431;;1
+4.2.V432;Tumoraktivität 41.Nebendiagnose;Activité de la tumeur pour le  41e diagnostic supplémentaire;_4_2_V432;;1
+4.2.V440;MD 42.Nebendiagnose;42e diagnostic supplémentaire;_4_2_V440;;1
+4.2.V441;Seitigkeit 42.Nebendiagnose;Latéralité du  42e diagnostic supplémentaire;_4_2_V441;;1
+4.2.V442;Tumoraktivität 42.Nebendiagnose;Activité de la tumeur pour le  42e diagnostic supplémentaire;_4_2_V442;;1
+4.2.V450;MD 43.Nebendiagnose;43e diagnostic supplémentaire;_4_2_V450;;1
+4.2.V451;Seitigkeit 43.Nebendiagnose;Latéralité du  43e diagnostic supplémentaire;_4_2_V451;;1
+4.2.V452;Tumoraktivität 43.Nebendiagnose;Activité de la tumeur pour le  43e diagnostic supplémentaire;_4_2_V452;;1
+4.2.V460;MD 44.Nebendiagnose;44e diagnostic supplémentaire;_4_2_V460;;1
+4.2.V461;Seitigkeit 44.Nebendiagnose;Latéralité du  44e diagnostic supplémentaire;_4_2_V461;;1
+4.2.V462;Tumoraktivität 44.Nebendiagnose;Activité de la tumeur pour le  44e diagnostic supplémentaire;_4_2_V462;;1
+4.2.V470;MD 45.Nebendiagnose;45e diagnostic supplémentaire;_4_2_V470;;1
+4.2.V471;Seitigkeit 45.Nebendiagnose;Latéralité du  45e diagnostic supplémentaire;_4_2_V471;;1
+4.2.V472;Tumoraktivität 45.Nebendiagnose;Activité de la tumeur pour le  45e diagnostic supplémentaire;_4_2_V472;;1
+4.2.V480;MD 46.Nebendiagnose;46e diagnostic supplémentaire;_4_2_V480;;1
+4.2.V481;Seitigkeit 46.Nebendiagnose;Latéralité du  46e diagnostic supplémentaire;_4_2_V481;;1
+4.2.V482;Tumoraktivität 46.Nebendiagnose;Activité de la tumeur pour le  46e diagnostic supplémentaire;_4_2_V482;;1
+4.2.V490;MD 47.Nebendiagnose;47e diagnostic supplémentaire;_4_2_V490;;1
+4.2.V491;Seitigkeit 47.Nebendiagnose;Latéralité du  47e diagnostic supplémentaire;_4_2_V491;;1
+4.2.V492;Tumoraktivität 47.Nebendiagnose;Activité de la tumeur pour le  47e diagnostic supplémentaire;_4_2_V492;;1
+4.2.V500;MD 48.Nebendiagnose;48e diagnostic supplémentaire;_4_2_V500;;1
+4.2.V501;Seitigkeit 48.Nebendiagnose;Latéralité du  48e diagnostic supplémentaire;_4_2_V501;;1
+4.2.V502;Tumoraktivität 48.Nebendiagnose;Activité de la tumeur pour le  48e diagnostic supplémentaire;_4_2_V502;;1
+4.2.V510;MD 49.Nebendiagnose;49e diagnostic supplémentaire;_4_2_V510;;1
+4.2.V511;Seitigkeit 49.Nebendiagnose;Latéralité du  49e diagnostic supplémentaire;_4_2_V511;;1
+4.2.V512;Tumoraktivität 49.Nebendiagnose;Activité de la tumeur pour le  49e diagnostic supplémentaire;_4_2_V512;;1
+4.3.V010;MD-Hauptbehandlung;Traitement principal MD;_4_3_V010;;1
+4.3.V011;Seitigkeit der;Latéralité pour le traitement principal;_4_3_V011;;1
+4.3.V015;Beginn der MD-Hauptbehandlung (JJJJMMTTSS);Début du traitement principal;_4_3_V015;;1
+4.3.V016;Ambulante Behandlungen auswärts, Hauptbehandlung;Traitement ambulatoire extra-muros;_4_3_V016;;1
+4.3.V017;Ambulante Behandlungen auswärts, Zusatzfeld Hauptbehandlung;Traitement ambulatoire extra-muros, champ supplémentaire;_4_3_V017;;1
+4.3.V020; 1. Nebenbehandlung;1er traitement supplémentaire;_4_3_V020;;1
+4.3.V021; 1. Nebenbehandlung, Seitigkeit;Latéralité du 1er trait. supplémentaire DRG;_4_3_V021;;1
+4.3.V025; 1. Nebenbehandlung, Beginn (JJJJMMTT);Début du  1er trait. supplémentaire DRG;_4_3_V025;;1
+4.3.V026; 1. Nebenbehandlung auswärts;1er trait. supplémentaire extra-muros;_4_3_V026;;1
+4.3.V027; 1. Nebenbehandlung Zusatzfeld;1er trait. Extra-muros, champ supp.;_4_3_V027;;1
+4.3.V030; 2. Nebenbehandlung;2e traitement supplémentaire;_4_3_V030;;1
+4.3.V031; 2. Nebenbehandlung, Seitigkeit;Latéralité du 2e trait. supplémentaire DRG;_4_3_V031;;1
+4.3.V035; 2. Nebenbehandlung, Beginn (JJJJMMTT);Début du  2e trait. supplémentaire DRG;_4_3_V035;;1
+4.3.V036; 2. Nebenbehandlung auswärts;2e trait. supplémentaire extra-muros;_4_3_V036;;1
+4.3.V037; 2. Nebenbehandlung Zusatzfeld;2e trait. Extra-muros, champ supp.;_4_3_V037;;1
+4.3.V040; 3. Nebenbehandlung;3e traitement supplémentaire;_4_3_V040;;1
+4.3.V041; 3. Nebenbehandlung, Seitigkeit;Latéralité du 3e trait. supplémentaire DRG;_4_3_V041;;1
+4.3.V045; 3. Nebenbehandlung, Beginn (JJJJMMTT);Début du  3e trait. supplémentaire DRG;_4_3_V045;;1
+4.3.V046; 3. Nebenbehandlung auswärts;3e trait. supplémentaire extra-muros;_4_3_V046;;1
+4.3.V047; 3. Nebenbehandlung Zusatzfeld;3e trait. Extra-muros, champ supp.;_4_3_V047;;1
+4.3.V050; 4. Nebenbehandlung;4e traitement supplémentaire;_4_3_V050;;1
+4.3.V051; 4. Nebenbehandlung, Seitigkeit;Latéralité du 4e trait. supplémentaire DRG;_4_3_V051;;1
+4.3.V055; 4. Nebenbehandlung, Beginn (JJJJMMTT);Début du  4e trait. supplémentaire DRG;_4_3_V055;;1
+4.3.V056; 4. Nebenbehandlung auswärts;4e trait. supplémentaire extra-muros;_4_3_V056;;1
+4.3.V057; 4. Nebenbehandlung Zusatzfeld;4e trait. Extra-muros, champ supp.;_4_3_V057;;1
+4.3.V060; 5. Nebenbehandlung;5e traitement supplémentaire;_4_3_V060;;1
+4.3.V061; 5. Nebenbehandlung, Seitigkeit;Latéralité du 5e trait. supplémentaire DRG;_4_3_V061;;1
+4.3.V065; 5. Nebenbehandlung, Beginn (JJJJMMTT);Début du  5e trait. supplémentaire DRG;_4_3_V065;;1
+4.3.V066; 5. Nebenbehandlung auswärts;5e trait. supplémentaire extra-muros;_4_3_V066;;1
+4.3.V067; 5. Nebenbehandlung Zusatzfeld;5e trait. Extra-muros, champ supp.;_4_3_V067;;1
+4.3.V070; 6. Nebenbehandlung;6e traitement supplémentaire;_4_3_V070;;1
+4.3.V071; 6. Nebenbehandlung, Seitigkeit;Latéralité du 6e trait. supplémentaire DRG;_4_3_V071;;1
+4.3.V075; 6. Nebenbehandlung, Beginn (JJJJMMTT);Début du  6e trait. supplémentaire DRG;_4_3_V075;;1
+4.3.V076; 6. Nebenbehandlung auswärts;6e trait. supplémentaire extra-muros;_4_3_V076;;1
+4.3.V077; 6. Nebenbehandlung Zusatzfeld;6e trait. Extra-muros, champ supp.;_4_3_V077;;1
+4.3.V080; 7. Nebenbehandlung;7e traitement supplémentaire;_4_3_V080;;1
+4.3.V081; 7. Nebenbehandlung, Seitigkeit;Latéralité du 7e trait. supplémentaire DRG;_4_3_V081;;1
+4.3.V085; 7. Nebenbehandlung, Beginn (JJJJMMTT);Début du  7e trait. supplémentaire DRG;_4_3_V085;;1
+4.3.V086; 7. Nebenbehandlung auswärts;7e trait. supplémentaire extra-muros;_4_3_V086;;1
+4.3.V087; 7. Nebenbehandlung Zusatzfeld;7e trait. Extra-muros, champ supp.;_4_3_V087;;1
+4.3.V090; 8. Nebenbehandlung;8e traitement supplémentaire;_4_3_V090;;1
+4.3.V091; 8. Nebenbehandlung, Seitigkeit;Latéralité du 8e trait. supplémentaire DRG;_4_3_V091;;1
+4.3.V095; 8. Nebenbehandlung, Beginn (JJJJMMTT);Début du  8e trait. supplémentaire DRG;_4_3_V095;;1
+4.3.V096; 8. Nebenbehandlung auswärts;8e trait. supplémentaire extra-muros;_4_3_V096;;1
+4.3.V097; 8. Nebenbehandlung Zusatzfeld;8e trait. Extra-muros, champ supp.;_4_3_V097;;1
+4.3.V100; 9. Nebenbehandlung;9e traitement supplémentaire;_4_3_V100;;1
+4.3.V1000; 99. Nebenbehandlung;99e traitement supplémentaire;_4_3_V1000;;1
+4.3.V1001; 99. Nebenbehandlung, Seitigkeit;Latéralité du 99e trait. supplémentaire DRG;_4_3_V1001;;1
+4.3.V1005; 99. Nebenbehandlung, Beginn (JJJJMMTT);Début du  99e trait. supplémentaire DRG;_4_3_V1005;;1
+4.3.V1006; 99. Nebenbehandlung auswärts;99e trait. supplémentaire extra-muros;_4_3_V1006;;1
+4.3.V1007; 99. Nebenbehandlung Zusatzfeld;99e trait. Extra-muros, champ supp.;_4_3_V1007;;1
+4.3.V101; 9. Nebenbehandlung, Seitigkeit;Latéralité du 9e trait. supplémentaire DRG;_4_3_V101;;1
+4.3.V105; 9. Nebenbehandlung, Beginn (JJJJMMTT);Début du  9e trait. supplémentaire DRG;_4_3_V105;;1
+4.3.V106; 9. Nebenbehandlung auswärts;9e trait. supplémentaire extra-muros;_4_3_V106;;1
+4.3.V107; 9. Nebenbehandlung Zusatzfeld;9e trait. Extra-muros, champ supp.;_4_3_V107;;1
+4.3.V110; 10. Nebenbehandlung;10e traitement supplémentaire;_4_3_V110;;1
+4.3.V111; 10. Nebenbehandlung, Seitigkeit;Latéralité du 10e trait. supplémentaire DRG;_4_3_V111;;1
+4.3.V115; 10. Nebenbehandlung, Beginn (JJJJMMTT);Début du  10e trait. supplémentaire DRG;_4_3_V115;;1
+4.3.V116; 10. Nebenbehandlung auswärts;10e trait. supplémentaire extra-muros;_4_3_V116;;1
+4.3.V117; 10. Nebenbehandlung Zusatzfeld;10e trait. Extra-muros, champ supp.;_4_3_V117;;1
+4.3.V120; 11. Nebenbehandlung;11e traitement supplémentaire;_4_3_V120;;1
+4.3.V121; 11. Nebenbehandlung, Seitigkeit;Latéralité du 11e trait. supplémentaire DRG;_4_3_V121;;1
+4.3.V125; 11. Nebenbehandlung, Beginn (JJJJMMTT);Début du  11e trait. supplémentaire DRG;_4_3_V125;;1
+4.3.V126; 11. Nebenbehandlung auswärts;11e trait. supplémentaire extra-muros;_4_3_V126;;1
+4.3.V127; 11. Nebenbehandlung Zusatzfeld;11e trait. Extra-muros, champ supp.;_4_3_V127;;1
+4.3.V130; 12. Nebenbehandlung;12e traitement supplémentaire;_4_3_V130;;1
+4.3.V131; 12. Nebenbehandlung, Seitigkeit;Latéralité du 12e trait. supplémentaire DRG;_4_3_V131;;1
+4.3.V135; 12. Nebenbehandlung, Beginn (JJJJMMTT);Début du  12e trait. supplémentaire DRG;_4_3_V135;;1
+4.3.V136; 12. Nebenbehandlung auswärts;12e trait. supplémentaire extra-muros;_4_3_V136;;1
+4.3.V137; 12. Nebenbehandlung Zusatzfeld;12e trait. Extra-muros, champ supp.;_4_3_V137;;1
+4.3.V140; 13. Nebenbehandlung;13e traitement supplémentaire;_4_3_V140;;1
+4.3.V141; 13. Nebenbehandlung, Seitigkeit;Latéralité du 13e trait. supplémentaire DRG;_4_3_V141;;1
+4.3.V145; 13. Nebenbehandlung, Beginn (JJJJMMTT);Début du  13e trait. supplémentaire DRG;_4_3_V145;;1
+4.3.V146; 13. Nebenbehandlung auswärts;13e trait. supplémentaire extra-muros;_4_3_V146;;1
+4.3.V147; 13. Nebenbehandlung Zusatzfeld;13e trait. Extra-muros, champ supp.;_4_3_V147;;1
+4.3.V150; 14. Nebenbehandlung;14e traitement supplémentaire;_4_3_V150;;1
+4.3.V151; 14. Nebenbehandlung, Seitigkeit;Latéralité du 14e trait. supplémentaire DRG;_4_3_V151;;1
+4.3.V155; 14. Nebenbehandlung, Beginn (JJJJMMTT);Début du  14e trait. supplémentaire DRG;_4_3_V155;;1
+4.3.V156; 14. Nebenbehandlung auswärts;14e trait. supplémentaire extra-muros;_4_3_V156;;1
+4.3.V157; 14. Nebenbehandlung Zusatzfeld;14e trait. Extra-muros, champ supp.;_4_3_V157;;1
+4.3.V160; 15. Nebenbehandlung;15e traitement supplémentaire;_4_3_V160;;1
+4.3.V161; 15. Nebenbehandlung, Seitigkeit;Latéralité du 15e trait. supplémentaire DRG;_4_3_V161;;1
+4.3.V165; 15. Nebenbehandlung, Beginn (JJJJMMTT);Début du  15e trait. supplémentaire DRG;_4_3_V165;;1
+4.3.V166; 15. Nebenbehandlung auswärts;15e trait. supplémentaire extra-muros;_4_3_V166;;1
+4.3.V167; 15. Nebenbehandlung Zusatzfeld;15e trait. Extra-muros, champ supp.;_4_3_V167;;1
+4.3.V170; 16. Nebenbehandlung;16e traitement supplémentaire;_4_3_V170;;1
+4.3.V171; 16. Nebenbehandlung, Seitigkeit;Latéralité du 16e trait. supplémentaire DRG;_4_3_V171;;1
+4.3.V175; 16. Nebenbehandlung, Beginn (JJJJMMTT);Début du  16e trait. supplémentaire DRG;_4_3_V175;;1
+4.3.V176; 16. Nebenbehandlung auswärts;16e trait. supplémentaire extra-muros;_4_3_V176;;1
+4.3.V177; 16. Nebenbehandlung Zusatzfeld;16e trait. Extra-muros, champ supp.;_4_3_V177;;1
+4.3.V180; 17. Nebenbehandlung;17e traitement supplémentaire;_4_3_V180;;1
+4.3.V181; 17. Nebenbehandlung, Seitigkeit;Latéralité du 17e trait. supplémentaire DRG;_4_3_V181;;1
+4.3.V185; 17. Nebenbehandlung, Beginn (JJJJMMTT);Début du  17e trait. supplémentaire DRG;_4_3_V185;;1
+4.3.V186; 17. Nebenbehandlung auswärts;17e trait. supplémentaire extra-muros;_4_3_V186;;1
+4.3.V187; 17. Nebenbehandlung Zusatzfeld;17e trait. Extra-muros, champ supp.;_4_3_V187;;1
+4.3.V190; 18. Nebenbehandlung;18e traitement supplémentaire;_4_3_V190;;1
+4.3.V191; 18. Nebenbehandlung, Seitigkeit;Latéralité du 18e trait. supplémentaire DRG;_4_3_V191;;1
+4.3.V195; 18. Nebenbehandlung, Beginn (JJJJMMTT);Début du  18e trait. supplémentaire DRG;_4_3_V195;;1
+4.3.V196; 18. Nebenbehandlung auswärts;18e trait. supplémentaire extra-muros;_4_3_V196;;1
+4.3.V197; 18. Nebenbehandlung Zusatzfeld;18e trait. Extra-muros, champ supp.;_4_3_V197;;1
+4.3.V200; 19. Nebenbehandlung;19e traitement supplémentaire;_4_3_V200;;1
+4.3.V201; 19. Nebenbehandlung, Seitigkeit;Latéralité du 19e trait. supplémentaire DRG;_4_3_V201;;1
+4.3.V205; 19. Nebenbehandlung, Beginn (JJJJMMTT);Début du  19e trait. supplémentaire DRG;_4_3_V205;;1
+4.3.V206; 19. Nebenbehandlung auswärts;19e trait. supplémentaire extra-muros;_4_3_V206;;1
+4.3.V207; 19. Nebenbehandlung Zusatzfeld;19e trait. Extra-muros, champ supp.;_4_3_V207;;1
+4.3.V210; 20. Nebenbehandlung;20e traitement supplémentaire;_4_3_V210;;1
+4.3.V211; 20. Nebenbehandlung, Seitigkeit;Latéralité du 20e trait. supplémentaire DRG;_4_3_V211;;1
+4.3.V215; 20. Nebenbehandlung, Beginn (JJJJMMTT);Début du  20e trait. supplémentaire DRG;_4_3_V215;;1
+4.3.V216; 20. Nebenbehandlung auswärts;20e trait. supplémentaire extra-muros;_4_3_V216;;1
+4.3.V217; 20. Nebenbehandlung Zusatzfeld;20e trait. Extra-muros, champ supp.;_4_3_V217;;1
+4.3.V220; 21. Nebenbehandlung;21e traitement supplémentaire;_4_3_V220;;1
+4.3.V221; 21. Nebenbehandlung, Seitigkeit;Latéralité du 21e trait. supplémentaire DRG;_4_3_V221;;1
+4.3.V225; 21. Nebenbehandlung, Beginn (JJJJMMTT);Début du  21e trait. supplémentaire DRG;_4_3_V225;;1
+4.3.V226; 21. Nebenbehandlung auswärts;21e trait. supplémentaire extra-muros;_4_3_V226;;1
+4.3.V227; 21. Nebenbehandlung Zusatzfeld;21e trait. Extra-muros, champ supp.;_4_3_V227;;1
+4.3.V230; 22. Nebenbehandlung;22e traitement supplémentaire;_4_3_V230;;1
+4.3.V231; 22. Nebenbehandlung, Seitigkeit;Latéralité du 22e trait. supplémentaire DRG;_4_3_V231;;1
+4.3.V235; 22. Nebenbehandlung, Beginn (JJJJMMTT);Début du  22e trait. supplémentaire DRG;_4_3_V235;;1
+4.3.V236; 22. Nebenbehandlung auswärts;22e trait. supplémentaire extra-muros;_4_3_V236;;1
+4.3.V237; 22. Nebenbehandlung Zusatzfeld;22e trait. Extra-muros, champ supp.;_4_3_V237;;1
+4.3.V240; 23. Nebenbehandlung;23e traitement supplémentaire;_4_3_V240;;1
+4.3.V241; 23. Nebenbehandlung, Seitigkeit;Latéralité du 23e trait. supplémentaire DRG;_4_3_V241;;1
+4.3.V245; 23. Nebenbehandlung, Beginn (JJJJMMTT);Début du  23e trait. supplémentaire DRG;_4_3_V245;;1
+4.3.V246; 23. Nebenbehandlung auswärts;23e trait. supplémentaire extra-muros;_4_3_V246;;1
+4.3.V247; 23. Nebenbehandlung Zusatzfeld;23e trait. Extra-muros, champ supp.;_4_3_V247;;1
+4.3.V250; 24. Nebenbehandlung;24e traitement supplémentaire;_4_3_V250;;1
+4.3.V251; 24. Nebenbehandlung, Seitigkeit;Latéralité du 24e trait. supplémentaire DRG;_4_3_V251;;1
+4.3.V255; 24. Nebenbehandlung, Beginn (JJJJMMTT);Début du  24e trait. supplémentaire DRG;_4_3_V255;;1
+4.3.V256; 24. Nebenbehandlung auswärts;24e trait. supplémentaire extra-muros;_4_3_V256;;1
+4.3.V257; 24. Nebenbehandlung Zusatzfeld;24e trait. Extra-muros, champ supp.;_4_3_V257;;1
+4.3.V260; 25. Nebenbehandlung;25e traitement supplémentaire;_4_3_V260;;1
+4.3.V261; 25. Nebenbehandlung, Seitigkeit;Latéralité du 25e trait. supplémentaire DRG;_4_3_V261;;1
+4.3.V265; 25. Nebenbehandlung, Beginn (JJJJMMTT);Début du  25e trait. supplémentaire DRG;_4_3_V265;;1
+4.3.V266; 25. Nebenbehandlung auswärts;25e trait. supplémentaire extra-muros;_4_3_V266;;1
+4.3.V267; 25. Nebenbehandlung Zusatzfeld;25e trait. Extra-muros, champ supp.;_4_3_V267;;1
+4.3.V270; 26. Nebenbehandlung;26e traitement supplémentaire;_4_3_V270;;1
+4.3.V271; 26. Nebenbehandlung, Seitigkeit;Latéralité du 26e trait. supplémentaire DRG;_4_3_V271;;1
+4.3.V275; 26. Nebenbehandlung, Beginn (JJJJMMTT);Début du  26e trait. supplémentaire DRG;_4_3_V275;;1
+4.3.V276; 26. Nebenbehandlung auswärts;26e trait. supplémentaire extra-muros;_4_3_V276;;1
+4.3.V277; 26. Nebenbehandlung Zusatzfeld;26e trait. Extra-muros, champ supp.;_4_3_V277;;1
+4.3.V280; 27. Nebenbehandlung;27e traitement supplémentaire;_4_3_V280;;1
+4.3.V281; 27. Nebenbehandlung, Seitigkeit;Latéralité du 27e trait. supplémentaire DRG;_4_3_V281;;1
+4.3.V285; 27. Nebenbehandlung, Beginn (JJJJMMTT);Début du  27e trait. supplémentaire DRG;_4_3_V285;;1
+4.3.V286; 27. Nebenbehandlung auswärts;27e trait. supplémentaire extra-muros;_4_3_V286;;1
+4.3.V287; 27. Nebenbehandlung Zusatzfeld;27e trait. Extra-muros, champ supp.;_4_3_V287;;1
+4.3.V290; 28. Nebenbehandlung;28e traitement supplémentaire;_4_3_V290;;1
+4.3.V291; 28. Nebenbehandlung, Seitigkeit;Latéralité du 28e trait. supplémentaire DRG;_4_3_V291;;1
+4.3.V295; 28. Nebenbehandlung, Beginn (JJJJMMTT);Début du  28e trait. supplémentaire DRG;_4_3_V295;;1
+4.3.V296; 28. Nebenbehandlung auswärts;28e trait. supplémentaire extra-muros;_4_3_V296;;1
+4.3.V297; 28. Nebenbehandlung Zusatzfeld;28e trait. Extra-muros, champ supp.;_4_3_V297;;1
+4.3.V300; 29. Nebenbehandlung;29e traitement supplémentaire;_4_3_V300;;1
+4.3.V301; 29. Nebenbehandlung, Seitigkeit;Latéralité du 29e trait. supplémentaire DRG;_4_3_V301;;1
+4.3.V305; 29. Nebenbehandlung, Beginn (JJJJMMTT);Début du  29e trait. supplémentaire DRG;_4_3_V305;;1
+4.3.V306; 29. Nebenbehandlung auswärts;29e trait. supplémentaire extra-muros;_4_3_V306;;1
+4.3.V307; 29. Nebenbehandlung Zusatzfeld;29e trait. Extra-muros, champ supp.;_4_3_V307;;1
+4.3.V310; 30. Nebenbehandlung;30e traitement supplémentaire;_4_3_V310;;1
+4.3.V311; 30. Nebenbehandlung, Seitigkeit;Latéralité du 30e trait. supplémentaire DRG;_4_3_V311;;1
+4.3.V315; 30. Nebenbehandlung, Beginn (JJJJMMTT);Début du  30e trait. supplémentaire DRG;_4_3_V315;;1
+4.3.V316; 30. Nebenbehandlung auswärts;30e trait. supplémentaire extra-muros;_4_3_V316;;1
+4.3.V317; 30. Nebenbehandlung Zusatzfeld;30e trait. Extra-muros, champ supp.;_4_3_V317;;1
+4.3.V320; 31. Nebenbehandlung;31e traitement supplémentaire;_4_3_V320;;1
+4.3.V321; 31. Nebenbehandlung, Seitigkeit;Latéralité du 31e trait. supplémentaire DRG;_4_3_V321;;1
+4.3.V325; 31. Nebenbehandlung, Beginn (JJJJMMTT);Début du  31e trait. supplémentaire DRG;_4_3_V325;;1
+4.3.V326; 31. Nebenbehandlung auswärts;31e trait. supplémentaire extra-muros;_4_3_V326;;1
+4.3.V327; 31. Nebenbehandlung Zusatzfeld;31e trait. Extra-muros, champ supp.;_4_3_V327;;1
+4.3.V330; 32. Nebenbehandlung;32e traitement supplémentaire;_4_3_V330;;1
+4.3.V331; 32. Nebenbehandlung, Seitigkeit;Latéralité du 32e trait. supplémentaire DRG;_4_3_V331;;1
+4.3.V335; 32. Nebenbehandlung, Beginn (JJJJMMTT);Début du  32e trait. supplémentaire DRG;_4_3_V335;;1
+4.3.V336; 32. Nebenbehandlung auswärts;32e trait. supplémentaire extra-muros;_4_3_V336;;1
+4.3.V337; 32. Nebenbehandlung Zusatzfeld;32e trait. Extra-muros, champ supp.;_4_3_V337;;1
+4.3.V340; 33. Nebenbehandlung;33e traitement supplémentaire;_4_3_V340;;1
+4.3.V341; 33. Nebenbehandlung, Seitigkeit;Latéralité du 33e trait. supplémentaire DRG;_4_3_V341;;1
+4.3.V345; 33. Nebenbehandlung, Beginn (JJJJMMTT);Début du  33e trait. supplémentaire DRG;_4_3_V345;;1
+4.3.V346; 33. Nebenbehandlung auswärts;33e trait. supplémentaire extra-muros;_4_3_V346;;1
+4.3.V347; 33. Nebenbehandlung Zusatzfeld;33e trait. Extra-muros, champ supp.;_4_3_V347;;1
+4.3.V350; 34. Nebenbehandlung;34e traitement supplémentaire;_4_3_V350;;1
+4.3.V351; 34. Nebenbehandlung, Seitigkeit;Latéralité du 34e trait. supplémentaire DRG;_4_3_V351;;1
+4.3.V355; 34. Nebenbehandlung, Beginn (JJJJMMTT);Début du  34e trait. supplémentaire DRG;_4_3_V355;;1
+4.3.V356; 34. Nebenbehandlung auswärts;34e trait. supplémentaire extra-muros;_4_3_V356;;1
+4.3.V357; 34. Nebenbehandlung Zusatzfeld;34e trait. Extra-muros, champ supp.;_4_3_V357;;1
+4.3.V360; 35. Nebenbehandlung;35e traitement supplémentaire;_4_3_V360;;1
+4.3.V361; 35. Nebenbehandlung, Seitigkeit;Latéralité du 35e trait. supplémentaire DRG;_4_3_V361;;1
+4.3.V365; 35. Nebenbehandlung, Beginn (JJJJMMTT);Début du  35e trait. supplémentaire DRG;_4_3_V365;;1
+4.3.V366; 35. Nebenbehandlung auswärts;35e trait. supplémentaire extra-muros;_4_3_V366;;1
+4.3.V367; 35. Nebenbehandlung Zusatzfeld;35e trait. Extra-muros, champ supp.;_4_3_V367;;1
+4.3.V370; 36. Nebenbehandlung;36e traitement supplémentaire;_4_3_V370;;1
+4.3.V371; 36. Nebenbehandlung, Seitigkeit;Latéralité du 36e trait. supplémentaire DRG;_4_3_V371;;1
+4.3.V375; 36. Nebenbehandlung, Beginn (JJJJMMTT);Début du  36e trait. supplémentaire DRG;_4_3_V375;;1
+4.3.V376; 36. Nebenbehandlung auswärts;36e trait. supplémentaire extra-muros;_4_3_V376;;1
+4.3.V377; 36. Nebenbehandlung Zusatzfeld;36e trait. Extra-muros, champ supp.;_4_3_V377;;1
+4.3.V380; 37. Nebenbehandlung;37e traitement supplémentaire;_4_3_V380;;1
+4.3.V381; 37. Nebenbehandlung, Seitigkeit;Latéralité du 37e trait. supplémentaire DRG;_4_3_V381;;1
+4.3.V385; 37. Nebenbehandlung, Beginn (JJJJMMTT);Début du  37e trait. supplémentaire DRG;_4_3_V385;;1
+4.3.V386; 37. Nebenbehandlung auswärts;37e trait. supplémentaire extra-muros;_4_3_V386;;1
+4.3.V387; 37. Nebenbehandlung Zusatzfeld;37e trait. Extra-muros, champ supp.;_4_3_V387;;1
+4.3.V390; 38. Nebenbehandlung;38e traitement supplémentaire;_4_3_V390;;1
+4.3.V391; 38. Nebenbehandlung, Seitigkeit;Latéralité du 38e trait. supplémentaire DRG;_4_3_V391;;1
+4.3.V395; 38. Nebenbehandlung, Beginn (JJJJMMTT);Début du  38e trait. supplémentaire DRG;_4_3_V395;;1
+4.3.V396; 38. Nebenbehandlung auswärts;38e trait. supplémentaire extra-muros;_4_3_V396;;1
+4.3.V397; 38. Nebenbehandlung Zusatzfeld;38e trait. Extra-muros, champ supp.;_4_3_V397;;1
+4.3.V400; 39. Nebenbehandlung;39e traitement supplémentaire;_4_3_V400;;1
+4.3.V401; 39. Nebenbehandlung, Seitigkeit;Latéralité du 39e trait. supplémentaire DRG;_4_3_V401;;1
+4.3.V405; 39. Nebenbehandlung, Beginn (JJJJMMTT);Début du  39e trait. supplémentaire DRG;_4_3_V405;;1
+4.3.V406; 39. Nebenbehandlung auswärts;39e trait. supplémentaire extra-muros;_4_3_V406;;1
+4.3.V407; 39. Nebenbehandlung Zusatzfeld;39e trait. Extra-muros, champ supp.;_4_3_V407;;1
+4.3.V410; 40. Nebenbehandlung;40e traitement supplémentaire;_4_3_V410;;1
+4.3.V411; 40. Nebenbehandlung, Seitigkeit;Latéralité du 40e trait. supplémentaire DRG;_4_3_V411;;1
+4.3.V415; 40. Nebenbehandlung, Beginn (JJJJMMTT);Début du  40e trait. supplémentaire DRG;_4_3_V415;;1
+4.3.V416; 40. Nebenbehandlung auswärts;40e trait. supplémentaire extra-muros;_4_3_V416;;1
+4.3.V417; 40. Nebenbehandlung Zusatzfeld;40e trait. Extra-muros, champ supp.;_4_3_V417;;1
+4.3.V420; 41. Nebenbehandlung;41e traitement supplémentaire;_4_3_V420;;1
+4.3.V421; 41. Nebenbehandlung, Seitigkeit;Latéralité du 41e trait. supplémentaire DRG;_4_3_V421;;1
+4.3.V425; 41. Nebenbehandlung, Beginn (JJJJMMTT);Début du  41e trait. supplémentaire DRG;_4_3_V425;;1
+4.3.V426; 41. Nebenbehandlung auswärts;41e trait. supplémentaire extra-muros;_4_3_V426;;1
+4.3.V427; 41. Nebenbehandlung Zusatzfeld;41e trait. Extra-muros, champ supp.;_4_3_V427;;1
+4.3.V430; 42. Nebenbehandlung;42e traitement supplémentaire;_4_3_V430;;1
+4.3.V431; 42. Nebenbehandlung, Seitigkeit;Latéralité du 42e trait. supplémentaire DRG;_4_3_V431;;1
+4.3.V435; 42. Nebenbehandlung, Beginn (JJJJMMTT);Début du  42e trait. supplémentaire DRG;_4_3_V435;;1
+4.3.V436; 42. Nebenbehandlung auswärts;42e trait. supplémentaire extra-muros;_4_3_V436;;1
+4.3.V437; 42. Nebenbehandlung Zusatzfeld;42e trait. Extra-muros, champ supp.;_4_3_V437;;1
+4.3.V440; 43. Nebenbehandlung;43e traitement supplémentaire;_4_3_V440;;1
+4.3.V441; 43. Nebenbehandlung, Seitigkeit;Latéralité du 43e trait. supplémentaire DRG;_4_3_V441;;1
+4.3.V445; 43. Nebenbehandlung, Beginn (JJJJMMTT);Début du  43e trait. supplémentaire DRG;_4_3_V445;;1
+4.3.V446; 43. Nebenbehandlung auswärts;43e trait. supplémentaire extra-muros;_4_3_V446;;1
+4.3.V447; 43. Nebenbehandlung Zusatzfeld;43e trait. Extra-muros, champ supp.;_4_3_V447;;1
+4.3.V450; 44. Nebenbehandlung;44e traitement supplémentaire;_4_3_V450;;1
+4.3.V451; 44. Nebenbehandlung, Seitigkeit;Latéralité du 44e trait. supplémentaire DRG;_4_3_V451;;1
+4.3.V455; 44. Nebenbehandlung, Beginn (JJJJMMTT);Début du  44e trait. supplémentaire DRG;_4_3_V455;;1
+4.3.V456; 44. Nebenbehandlung auswärts;44e trait. supplémentaire extra-muros;_4_3_V456;;1
+4.3.V457; 44. Nebenbehandlung Zusatzfeld;44e trait. Extra-muros, champ supp.;_4_3_V457;;1
+4.3.V460; 45. Nebenbehandlung;45e traitement supplémentaire;_4_3_V460;;1
+4.3.V461; 45. Nebenbehandlung, Seitigkeit;Latéralité du 45e trait. supplémentaire DRG;_4_3_V461;;1
+4.3.V465; 45. Nebenbehandlung, Beginn (JJJJMMTT);Début du  45e trait. supplémentaire DRG;_4_3_V465;;1
+4.3.V466; 45. Nebenbehandlung auswärts;45e trait. supplémentaire extra-muros;_4_3_V466;;1
+4.3.V467; 45. Nebenbehandlung Zusatzfeld;45e trait. Extra-muros, champ supp.;_4_3_V467;;1
+4.3.V470; 46. Nebenbehandlung;46e traitement supplémentaire;_4_3_V470;;1
+4.3.V471; 46. Nebenbehandlung, Seitigkeit;Latéralité du 46e trait. supplémentaire DRG;_4_3_V471;;1
+4.3.V475; 46. Nebenbehandlung, Beginn (JJJJMMTT);Début du  46e trait. supplémentaire DRG;_4_3_V475;;1
+4.3.V476; 46. Nebenbehandlung auswärts;46e trait. supplémentaire extra-muros;_4_3_V476;;1
+4.3.V477; 46. Nebenbehandlung Zusatzfeld;46e trait. Extra-muros, champ supp.;_4_3_V477;;1
+4.3.V480; 47. Nebenbehandlung;47e traitement supplémentaire;_4_3_V480;;1
+4.3.V481; 47. Nebenbehandlung, Seitigkeit;Latéralité du 47e trait. supplémentaire DRG;_4_3_V481;;1
+4.3.V485; 47. Nebenbehandlung, Beginn (JJJJMMTT);Début du  47e trait. supplémentaire DRG;_4_3_V485;;1
+4.3.V486; 47. Nebenbehandlung auswärts;47e trait. supplémentaire extra-muros;_4_3_V486;;1
+4.3.V487; 47. Nebenbehandlung Zusatzfeld;47e trait. Extra-muros, champ supp.;_4_3_V487;;1
+4.3.V490; 48. Nebenbehandlung;48e traitement supplémentaire;_4_3_V490;;1
+4.3.V491; 48. Nebenbehandlung, Seitigkeit;Latéralité du 48e trait. supplémentaire DRG;_4_3_V491;;1
+4.3.V495; 48. Nebenbehandlung, Beginn (JJJJMMTT);Début du  48e trait. supplémentaire DRG;_4_3_V495;;1
+4.3.V496; 48. Nebenbehandlung auswärts;48e trait. supplémentaire extra-muros;_4_3_V496;;1
+4.3.V497; 48. Nebenbehandlung Zusatzfeld;48e trait. Extra-muros, champ supp.;_4_3_V497;;1
+4.3.V500; 49. Nebenbehandlung;49e traitement supplémentaire;_4_3_V500;;1
+4.3.V501; 49. Nebenbehandlung, Seitigkeit;Latéralité du 49e trait. supplémentaire DRG;_4_3_V501;;1
+4.3.V505; 49. Nebenbehandlung, Beginn (JJJJMMTT);Début du  49e trait. supplémentaire DRG;_4_3_V505;;1
+4.3.V506; 49. Nebenbehandlung auswärts;49e trait. supplémentaire extra-muros;_4_3_V506;;1
+4.3.V507; 49. Nebenbehandlung Zusatzfeld;49e trait. Extra-muros, champ supp.;_4_3_V507;;1
+4.3.V510; 50. Nebenbehandlung;50e traitement supplémentaire;_4_3_V510;;1
+4.3.V511; 50. Nebenbehandlung, Seitigkeit;Latéralité du 50e trait. supplémentaire DRG;_4_3_V511;;1
+4.3.V515; 50. Nebenbehandlung, Beginn (JJJJMMTT);Début du  50e trait. supplémentaire DRG;_4_3_V515;;1
+4.3.V516; 50. Nebenbehandlung auswärts;50e trait. supplémentaire extra-muros;_4_3_V516;;1
+4.3.V517; 50. Nebenbehandlung Zusatzfeld;50e trait. Extra-muros, champ supp.;_4_3_V517;;1
+4.3.V520; 51. Nebenbehandlung;51e traitement supplémentaire;_4_3_V520;;1
+4.3.V521; 51. Nebenbehandlung, Seitigkeit;Latéralité du 51e trait. supplémentaire DRG;_4_3_V521;;1
+4.3.V525; 51. Nebenbehandlung, Beginn (JJJJMMTT);Début du  51e trait. supplémentaire DRG;_4_3_V525;;1
+4.3.V526; 51. Nebenbehandlung auswärts;51e trait. supplémentaire extra-muros;_4_3_V526;;1
+4.3.V527; 51. Nebenbehandlung Zusatzfeld;51e trait. Extra-muros, champ supp.;_4_3_V527;;1
+4.3.V530; 52. Nebenbehandlung;52e traitement supplémentaire;_4_3_V530;;1
+4.3.V531; 52. Nebenbehandlung, Seitigkeit;Latéralité du 52e trait. supplémentaire DRG;_4_3_V531;;1
+4.3.V535; 52. Nebenbehandlung, Beginn (JJJJMMTT);Début du  52e trait. supplémentaire DRG;_4_3_V535;;1
+4.3.V536; 52. Nebenbehandlung auswärts;52e trait. supplémentaire extra-muros;_4_3_V536;;1
+4.3.V537; 52. Nebenbehandlung Zusatzfeld;52e trait. Extra-muros, champ supp.;_4_3_V537;;1
+4.3.V540; 53. Nebenbehandlung;53e traitement supplémentaire;_4_3_V540;;1
+4.3.V541; 53. Nebenbehandlung, Seitigkeit;Latéralité du 53e trait. supplémentaire DRG;_4_3_V541;;1
+4.3.V545; 53. Nebenbehandlung, Beginn (JJJJMMTT);Début du  53e trait. supplémentaire DRG;_4_3_V545;;1
+4.3.V546; 53. Nebenbehandlung auswärts;53e trait. supplémentaire extra-muros;_4_3_V546;;1
+4.3.V547; 53. Nebenbehandlung Zusatzfeld;53e trait. Extra-muros, champ supp.;_4_3_V547;;1
+4.3.V550; 54. Nebenbehandlung;54e traitement supplémentaire;_4_3_V550;;1
+4.3.V551; 54. Nebenbehandlung, Seitigkeit;Latéralité du 54e trait. supplémentaire DRG;_4_3_V551;;1
+4.3.V555; 54. Nebenbehandlung, Beginn (JJJJMMTT);Début du  54e trait. supplémentaire DRG;_4_3_V555;;1
+4.3.V556; 54. Nebenbehandlung auswärts;54e trait. supplémentaire extra-muros;_4_3_V556;;1
+4.3.V557; 54. Nebenbehandlung Zusatzfeld;54e trait. Extra-muros, champ supp.;_4_3_V557;;1
+4.3.V560; 55. Nebenbehandlung;55e traitement supplémentaire;_4_3_V560;;1
+4.3.V561; 55. Nebenbehandlung, Seitigkeit;Latéralité du 55e trait. supplémentaire DRG;_4_3_V561;;1
+4.3.V565; 55. Nebenbehandlung, Beginn (JJJJMMTT);Début du  55e trait. supplémentaire DRG;_4_3_V565;;1
+4.3.V566; 55. Nebenbehandlung auswärts;55e trait. supplémentaire extra-muros;_4_3_V566;;1
+4.3.V567; 55. Nebenbehandlung Zusatzfeld;55e trait. Extra-muros, champ supp.;_4_3_V567;;1
+4.3.V570; 56. Nebenbehandlung;56e traitement supplémentaire;_4_3_V570;;1
+4.3.V571; 56. Nebenbehandlung, Seitigkeit;Latéralité du 56e trait. supplémentaire DRG;_4_3_V571;;1
+4.3.V575; 56. Nebenbehandlung, Beginn (JJJJMMTT);Début du  56e trait. supplémentaire DRG;_4_3_V575;;1
+4.3.V576; 56. Nebenbehandlung auswärts;56e trait. supplémentaire extra-muros;_4_3_V576;;1
+4.3.V577; 56. Nebenbehandlung Zusatzfeld;56e trait. Extra-muros, champ supp.;_4_3_V577;;1
+4.3.V580; 57. Nebenbehandlung;57e traitement supplémentaire;_4_3_V580;;1
+4.3.V581; 57. Nebenbehandlung, Seitigkeit;Latéralité du 57e trait. supplémentaire DRG;_4_3_V581;;1
+4.3.V585; 57. Nebenbehandlung, Beginn (JJJJMMTT);Début du  57e trait. supplémentaire DRG;_4_3_V585;;1
+4.3.V586; 57. Nebenbehandlung auswärts;57e trait. supplémentaire extra-muros;_4_3_V586;;1
+4.3.V587; 57. Nebenbehandlung Zusatzfeld;57e trait. Extra-muros, champ supp.;_4_3_V587;;1
+4.3.V590; 58. Nebenbehandlung;58e traitement supplémentaire;_4_3_V590;;1
+4.3.V591; 58. Nebenbehandlung, Seitigkeit;Latéralité du 58e trait. supplémentaire DRG;_4_3_V591;;1
+4.3.V595; 58. Nebenbehandlung, Beginn (JJJJMMTT);Début du  58e trait. supplémentaire DRG;_4_3_V595;;1
+4.3.V596; 58. Nebenbehandlung auswärts;58e trait. supplémentaire extra-muros;_4_3_V596;;1
+4.3.V597; 58. Nebenbehandlung Zusatzfeld;58e trait. Extra-muros, champ supp.;_4_3_V597;;1
+4.3.V600; 59. Nebenbehandlung;59e traitement supplémentaire;_4_3_V600;;1
+4.3.V601; 59. Nebenbehandlung, Seitigkeit;Latéralité du 59e trait. supplémentaire DRG;_4_3_V601;;1
+4.3.V605; 59. Nebenbehandlung, Beginn (JJJJMMTT);Début du  59e trait. supplémentaire DRG;_4_3_V605;;1
+4.3.V606; 59. Nebenbehandlung auswärts;59e trait. supplémentaire extra-muros;_4_3_V606;;1
+4.3.V607; 59. Nebenbehandlung Zusatzfeld;59e trait. Extra-muros, champ supp.;_4_3_V607;;1
+4.3.V610; 60. Nebenbehandlung;60e traitement supplémentaire;_4_3_V610;;1
+4.3.V611; 60. Nebenbehandlung, Seitigkeit;Latéralité du 60e trait. supplémentaire DRG;_4_3_V611;;1
+4.3.V615; 60. Nebenbehandlung, Beginn (JJJJMMTT);Début du  60e trait. supplémentaire DRG;_4_3_V615;;1
+4.3.V616; 60. Nebenbehandlung auswärts;60e trait. supplémentaire extra-muros;_4_3_V616;;1
+4.3.V617; 60. Nebenbehandlung Zusatzfeld;60e trait. Extra-muros, champ supp.;_4_3_V617;;1
+4.3.V620; 61. Nebenbehandlung;61e traitement supplémentaire;_4_3_V620;;1
+4.3.V621; 61. Nebenbehandlung, Seitigkeit;Latéralité du 61e trait. supplémentaire DRG;_4_3_V621;;1
+4.3.V625; 61. Nebenbehandlung, Beginn (JJJJMMTT);Début du  61e trait. supplémentaire DRG;_4_3_V625;;1
+4.3.V626; 61. Nebenbehandlung auswärts;61e trait. supplémentaire extra-muros;_4_3_V626;;1
+4.3.V627; 61. Nebenbehandlung Zusatzfeld;61e trait. Extra-muros, champ supp.;_4_3_V627;;1
+4.3.V630; 62. Nebenbehandlung;62e traitement supplémentaire;_4_3_V630;;1
+4.3.V631; 62. Nebenbehandlung, Seitigkeit;Latéralité du 62e trait. supplémentaire DRG;_4_3_V631;;1
+4.3.V635; 62. Nebenbehandlung, Beginn (JJJJMMTT);Début du  62e trait. supplémentaire DRG;_4_3_V635;;1
+4.3.V636; 62. Nebenbehandlung auswärts;62e trait. supplémentaire extra-muros;_4_3_V636;;1
+4.3.V637; 62. Nebenbehandlung Zusatzfeld;62e trait. Extra-muros, champ supp.;_4_3_V637;;1
+4.3.V640; 63. Nebenbehandlung;63e traitement supplémentaire;_4_3_V640;;1
+4.3.V641; 63. Nebenbehandlung, Seitigkeit;Latéralité du 63e trait. supplémentaire DRG;_4_3_V641;;1
+4.3.V645; 63. Nebenbehandlung, Beginn (JJJJMMTT);Début du  63e trait. supplémentaire DRG;_4_3_V645;;1
+4.3.V646; 63. Nebenbehandlung auswärts;63e trait. supplémentaire extra-muros;_4_3_V646;;1
+4.3.V647; 63. Nebenbehandlung Zusatzfeld;63e trait. Extra-muros, champ supp.;_4_3_V647;;1
+4.3.V650; 64. Nebenbehandlung;64e traitement supplémentaire;_4_3_V650;;1
+4.3.V651; 64. Nebenbehandlung, Seitigkeit;Latéralité du 64e trait. supplémentaire DRG;_4_3_V651;;1
+4.3.V655; 64. Nebenbehandlung, Beginn (JJJJMMTT);Début du  64e trait. supplémentaire DRG;_4_3_V655;;1
+4.3.V656; 64. Nebenbehandlung auswärts;64e trait. supplémentaire extra-muros;_4_3_V656;;1
+4.3.V657; 64. Nebenbehandlung Zusatzfeld;64e trait. Extra-muros, champ supp.;_4_3_V657;;1
+4.3.V660; 65. Nebenbehandlung;65e traitement supplémentaire;_4_3_V660;;1
+4.3.V661; 65. Nebenbehandlung, Seitigkeit;Latéralité du 65e trait. supplémentaire DRG;_4_3_V661;;1
+4.3.V665; 65. Nebenbehandlung, Beginn (JJJJMMTT);Début du  65e trait. supplémentaire DRG;_4_3_V665;;1
+4.3.V666; 65. Nebenbehandlung auswärts;65e trait. supplémentaire extra-muros;_4_3_V666;;1
+4.3.V667; 65. Nebenbehandlung Zusatzfeld;65e trait. Extra-muros, champ supp.;_4_3_V667;;1
+4.3.V670; 66. Nebenbehandlung;66e traitement supplémentaire;_4_3_V670;;1
+4.3.V671; 66. Nebenbehandlung, Seitigkeit;Latéralité du 66e trait. supplémentaire DRG;_4_3_V671;;1
+4.3.V675; 66. Nebenbehandlung, Beginn (JJJJMMTT);Début du  66e trait. supplémentaire DRG;_4_3_V675;;1
+4.3.V676; 66. Nebenbehandlung auswärts;66e trait. supplémentaire extra-muros;_4_3_V676;;1
+4.3.V677; 66. Nebenbehandlung Zusatzfeld;66e trait. Extra-muros, champ supp.;_4_3_V677;;1
+4.3.V680; 67. Nebenbehandlung;67e traitement supplémentaire;_4_3_V680;;1
+4.3.V681; 67. Nebenbehandlung, Seitigkeit;Latéralité du 67e trait. supplémentaire DRG;_4_3_V681;;1
+4.3.V685; 67. Nebenbehandlung, Beginn (JJJJMMTT);Début du  67e trait. supplémentaire DRG;_4_3_V685;;1
+4.3.V686; 67. Nebenbehandlung auswärts;67e trait. supplémentaire extra-muros;_4_3_V686;;1
+4.3.V687; 67. Nebenbehandlung Zusatzfeld;67e trait. Extra-muros, champ supp.;_4_3_V687;;1
+4.3.V690; 68. Nebenbehandlung;68e traitement supplémentaire;_4_3_V690;;1
+4.3.V691; 68. Nebenbehandlung, Seitigkeit;Latéralité du 68e trait. supplémentaire DRG;_4_3_V691;;1
+4.3.V695; 68. Nebenbehandlung, Beginn (JJJJMMTT);Début du  68e trait. supplémentaire DRG;_4_3_V695;;1
+4.3.V696; 68. Nebenbehandlung auswärts;68e trait. supplémentaire extra-muros;_4_3_V696;;1
+4.3.V697; 68. Nebenbehandlung Zusatzfeld;68e trait. Extra-muros, champ supp.;_4_3_V697;;1
+4.3.V700; 69. Nebenbehandlung;69e traitement supplémentaire;_4_3_V700;;1
+4.3.V701; 69. Nebenbehandlung, Seitigkeit;Latéralité du 69e trait. supplémentaire DRG;_4_3_V701;;1
+4.3.V705; 69. Nebenbehandlung, Beginn (JJJJMMTT);Début du  69e trait. supplémentaire DRG;_4_3_V705;;1
+4.3.V706; 69. Nebenbehandlung auswärts;69e trait. supplémentaire extra-muros;_4_3_V706;;1
+4.3.V707; 69. Nebenbehandlung Zusatzfeld;69e trait. Extra-muros, champ supp.;_4_3_V707;;1
+4.3.V710; 70. Nebenbehandlung;70e traitement supplémentaire;_4_3_V710;;1
+4.3.V711; 70. Nebenbehandlung, Seitigkeit;Latéralité du 70e trait. supplémentaire DRG;_4_3_V711;;1
+4.3.V715; 70. Nebenbehandlung, Beginn (JJJJMMTT);Début du  70e trait. supplémentaire DRG;_4_3_V715;;1
+4.3.V716; 70. Nebenbehandlung auswärts;70e trait. supplémentaire extra-muros;_4_3_V716;;1
+4.3.V717; 70. Nebenbehandlung Zusatzfeld;70e trait. Extra-muros, champ supp.;_4_3_V717;;1
+4.3.V720; 71. Nebenbehandlung;71e traitement supplémentaire;_4_3_V720;;1
+4.3.V721; 71. Nebenbehandlung, Seitigkeit;Latéralité du 71e trait. supplémentaire DRG;_4_3_V721;;1
+4.3.V725; 71. Nebenbehandlung, Beginn (JJJJMMTT);Début du  71e trait. supplémentaire DRG;_4_3_V725;;1
+4.3.V726; 71. Nebenbehandlung auswärts;71e trait. supplémentaire extra-muros;_4_3_V726;;1
+4.3.V727; 71. Nebenbehandlung Zusatzfeld;71e trait. Extra-muros, champ supp.;_4_3_V727;;1
+4.3.V730; 72. Nebenbehandlung;72e traitement supplémentaire;_4_3_V730;;1
+4.3.V731; 72. Nebenbehandlung, Seitigkeit;Latéralité du 72e trait. supplémentaire DRG;_4_3_V731;;1
+4.3.V735; 72. Nebenbehandlung, Beginn (JJJJMMTT);Début du  72e trait. supplémentaire DRG;_4_3_V735;;1
+4.3.V736; 72. Nebenbehandlung auswärts;72e trait. supplémentaire extra-muros;_4_3_V736;;1
+4.3.V737; 72. Nebenbehandlung Zusatzfeld;72e trait. Extra-muros, champ supp.;_4_3_V737;;1
+4.3.V740; 73. Nebenbehandlung;73e traitement supplémentaire;_4_3_V740;;1
+4.3.V741; 73. Nebenbehandlung, Seitigkeit;Latéralité du 73e trait. supplémentaire DRG;_4_3_V741;;1
+4.3.V745; 73. Nebenbehandlung, Beginn (JJJJMMTT);Début du  73e trait. supplémentaire DRG;_4_3_V745;;1
+4.3.V746; 73. Nebenbehandlung auswärts;73e trait. supplémentaire extra-muros;_4_3_V746;;1
+4.3.V747; 73. Nebenbehandlung Zusatzfeld;73e trait. Extra-muros, champ supp.;_4_3_V747;;1
+4.3.V750; 74. Nebenbehandlung;74e traitement supplémentaire;_4_3_V750;;1
+4.3.V751; 74. Nebenbehandlung, Seitigkeit;Latéralité du 74e trait. supplémentaire DRG;_4_3_V751;;1
+4.3.V755; 74. Nebenbehandlung, Beginn (JJJJMMTT);Début du  74e trait. supplémentaire DRG;_4_3_V755;;1
+4.3.V756; 74. Nebenbehandlung auswärts;74e trait. supplémentaire extra-muros;_4_3_V756;;1
+4.3.V757; 74. Nebenbehandlung Zusatzfeld;74e trait. Extra-muros, champ supp.;_4_3_V757;;1
+4.3.V760; 75. Nebenbehandlung;75e traitement supplémentaire;_4_3_V760;;1
+4.3.V761; 75. Nebenbehandlung, Seitigkeit;Latéralité du 75e trait. supplémentaire DRG;_4_3_V761;;1
+4.3.V765; 75. Nebenbehandlung, Beginn (JJJJMMTT);Début du  75e trait. supplémentaire DRG;_4_3_V765;;1
+4.3.V766; 75. Nebenbehandlung auswärts;75e trait. supplémentaire extra-muros;_4_3_V766;;1
+4.3.V767; 75. Nebenbehandlung Zusatzfeld;75e trait. Extra-muros, champ supp.;_4_3_V767;;1
+4.3.V770; 76. Nebenbehandlung;76e traitement supplémentaire;_4_3_V770;;1
+4.3.V771; 76. Nebenbehandlung, Seitigkeit;Latéralité du 76e trait. supplémentaire DRG;_4_3_V771;;1
+4.3.V775; 76. Nebenbehandlung, Beginn (JJJJMMTT);Début du  76e trait. supplémentaire DRG;_4_3_V775;;1
+4.3.V776; 76. Nebenbehandlung auswärts;76e trait. supplémentaire extra-muros;_4_3_V776;;1
+4.3.V777; 76. Nebenbehandlung Zusatzfeld;76e trait. Extra-muros, champ supp.;_4_3_V777;;1
+4.3.V780; 77. Nebenbehandlung;77e traitement supplémentaire;_4_3_V780;;1
+4.3.V781; 77. Nebenbehandlung, Seitigkeit;Latéralité du 77e trait. supplémentaire DRG;_4_3_V781;;1
+4.3.V785; 77. Nebenbehandlung, Beginn (JJJJMMTT);Début du  77e trait. supplémentaire DRG;_4_3_V785;;1
+4.3.V786; 77. Nebenbehandlung auswärts;77e trait. supplémentaire extra-muros;_4_3_V786;;1
+4.3.V787; 77. Nebenbehandlung Zusatzfeld;77e trait. Extra-muros, champ supp.;_4_3_V787;;1
+4.3.V790; 78. Nebenbehandlung;78e traitement supplémentaire;_4_3_V790;;1
+4.3.V791; 78. Nebenbehandlung, Seitigkeit;Latéralité du 78e trait. supplémentaire DRG;_4_3_V791;;1
+4.3.V795; 78. Nebenbehandlung, Beginn (JJJJMMTT);Début du  78e trait. supplémentaire DRG;_4_3_V795;;1
+4.3.V796; 78. Nebenbehandlung auswärts;78e trait. supplémentaire extra-muros;_4_3_V796;;1
+4.3.V797; 78. Nebenbehandlung Zusatzfeld;78e trait. Extra-muros, champ supp.;_4_3_V797;;1
+4.3.V800; 79. Nebenbehandlung;79e traitement supplémentaire;_4_3_V800;;1
+4.3.V801; 79. Nebenbehandlung, Seitigkeit;Latéralité du 79e trait. supplémentaire DRG;_4_3_V801;;1
+4.3.V805; 79. Nebenbehandlung, Beginn (JJJJMMTT);Début du  79e trait. supplémentaire DRG;_4_3_V805;;1
+4.3.V806; 79. Nebenbehandlung auswärts;79e trait. supplémentaire extra-muros;_4_3_V806;;1
+4.3.V807; 79. Nebenbehandlung Zusatzfeld;79e trait. Extra-muros, champ supp.;_4_3_V807;;1
+4.3.V810; 80. Nebenbehandlung;80e traitement supplémentaire;_4_3_V810;;1
+4.3.V811; 80. Nebenbehandlung, Seitigkeit;Latéralité du 80e trait. supplémentaire DRG;_4_3_V811;;1
+4.3.V815; 80. Nebenbehandlung, Beginn (JJJJMMTT);Début du  80e trait. supplémentaire DRG;_4_3_V815;;1
+4.3.V816; 80. Nebenbehandlung auswärts;80e trait. supplémentaire extra-muros;_4_3_V816;;1
+4.3.V817; 80. Nebenbehandlung Zusatzfeld;80e trait. Extra-muros, champ supp.;_4_3_V817;;1
+4.3.V820; 81. Nebenbehandlung;81e traitement supplémentaire;_4_3_V820;;1
+4.3.V821; 81. Nebenbehandlung, Seitigkeit;Latéralité du 81e trait. supplémentaire DRG;_4_3_V821;;1
+4.3.V825; 81. Nebenbehandlung, Beginn (JJJJMMTT);Début du  81e trait. supplémentaire DRG;_4_3_V825;;1
+4.3.V826; 81. Nebenbehandlung auswärts;81e trait. supplémentaire extra-muros;_4_3_V826;;1
+4.3.V827; 81. Nebenbehandlung Zusatzfeld;81e trait. Extra-muros, champ supp.;_4_3_V827;;1
+4.3.V830; 82. Nebenbehandlung;82e traitement supplémentaire;_4_3_V830;;1
+4.3.V831; 82. Nebenbehandlung, Seitigkeit;Latéralité du 82e trait. supplémentaire DRG;_4_3_V831;;1
+4.3.V835; 82. Nebenbehandlung, Beginn (JJJJMMTT);Début du  82e trait. supplémentaire DRG;_4_3_V835;;1
+4.3.V836; 82. Nebenbehandlung auswärts;82e trait. supplémentaire extra-muros;_4_3_V836;;1
+4.3.V837; 82. Nebenbehandlung Zusatzfeld;82e trait. Extra-muros, champ supp.;_4_3_V837;;1
+4.3.V840; 83. Nebenbehandlung;83e traitement supplémentaire;_4_3_V840;;1
+4.3.V841; 83. Nebenbehandlung, Seitigkeit;Latéralité du 83e trait. supplémentaire DRG;_4_3_V841;;1
+4.3.V845; 83. Nebenbehandlung, Beginn (JJJJMMTT);Début du  83e trait. supplémentaire DRG;_4_3_V845;;1
+4.3.V846; 83. Nebenbehandlung auswärts;83e trait. supplémentaire extra-muros;_4_3_V846;;1
+4.3.V847; 83. Nebenbehandlung Zusatzfeld;83e trait. Extra-muros, champ supp.;_4_3_V847;;1
+4.3.V850; 84. Nebenbehandlung;84e traitement supplémentaire;_4_3_V850;;1
+4.3.V851; 84. Nebenbehandlung, Seitigkeit;Latéralité du 84e trait. supplémentaire DRG;_4_3_V851;;1
+4.3.V855; 84. Nebenbehandlung, Beginn (JJJJMMTT);Début du  84e trait. supplémentaire DRG;_4_3_V855;;1
+4.3.V856; 84. Nebenbehandlung auswärts;84e trait. supplémentaire extra-muros;_4_3_V856;;1
+4.3.V857; 84. Nebenbehandlung Zusatzfeld;84e trait. Extra-muros, champ supp.;_4_3_V857;;1
+4.3.V860; 85. Nebenbehandlung;85e traitement supplémentaire;_4_3_V860;;1
+4.3.V861; 85. Nebenbehandlung, Seitigkeit;Latéralité du 85e trait. supplémentaire DRG;_4_3_V861;;1
+4.3.V865; 85. Nebenbehandlung, Beginn (JJJJMMTT);Début du  85e trait. supplémentaire DRG;_4_3_V865;;1
+4.3.V866; 85. Nebenbehandlung auswärts;85e trait. supplémentaire extra-muros;_4_3_V866;;1
+4.3.V867; 85. Nebenbehandlung Zusatzfeld;85e trait. Extra-muros, champ supp.;_4_3_V867;;1
+4.3.V870; 86. Nebenbehandlung;86e traitement supplémentaire;_4_3_V870;;1
+4.3.V871; 86. Nebenbehandlung, Seitigkeit;Latéralité du 86e trait. supplémentaire DRG;_4_3_V871;;1
+4.3.V875; 86. Nebenbehandlung, Beginn (JJJJMMTT);Début du  86e trait. supplémentaire DRG;_4_3_V875;;1
+4.3.V876; 86. Nebenbehandlung auswärts;86e trait. supplémentaire extra-muros;_4_3_V876;;1
+4.3.V877; 86. Nebenbehandlung Zusatzfeld;86e trait. Extra-muros, champ supp.;_4_3_V877;;1
+4.3.V880; 87. Nebenbehandlung;87e traitement supplémentaire;_4_3_V880;;1
+4.3.V881; 87. Nebenbehandlung, Seitigkeit;Latéralité du 87e trait. supplémentaire DRG;_4_3_V881;;1
+4.3.V885; 87. Nebenbehandlung, Beginn (JJJJMMTT);Début du  87e trait. supplémentaire DRG;_4_3_V885;;1
+4.3.V886; 87. Nebenbehandlung auswärts;87e trait. supplémentaire extra-muros;_4_3_V886;;1
+4.3.V887; 87. Nebenbehandlung Zusatzfeld;87e trait. Extra-muros, champ supp.;_4_3_V887;;1
+4.3.V890; 88. Nebenbehandlung;88e traitement supplémentaire;_4_3_V890;;1
+4.3.V891; 88. Nebenbehandlung, Seitigkeit;Latéralité du 88e trait. supplémentaire DRG;_4_3_V891;;1
+4.3.V895; 88. Nebenbehandlung, Beginn (JJJJMMTT);Début du  88e trait. supplémentaire DRG;_4_3_V895;;1
+4.3.V896; 88. Nebenbehandlung auswärts;88e trait. supplémentaire extra-muros;_4_3_V896;;1
+4.3.V897; 88. Nebenbehandlung Zusatzfeld;88e trait. Extra-muros, champ supp.;_4_3_V897;;1
+4.3.V900; 89. Nebenbehandlung;89e traitement supplémentaire;_4_3_V900;;1
+4.3.V901; 89. Nebenbehandlung, Seitigkeit;Latéralité du 89e trait. supplémentaire DRG;_4_3_V901;;1
+4.3.V905; 89. Nebenbehandlung, Beginn (JJJJMMTT);Début du  89e trait. supplémentaire DRG;_4_3_V905;;1
+4.3.V906; 89. Nebenbehandlung auswärts;89e trait. supplémentaire extra-muros;_4_3_V906;;1
+4.3.V907; 89. Nebenbehandlung Zusatzfeld;89e trait. Extra-muros, champ supp.;_4_3_V907;;1
+4.3.V910; 90. Nebenbehandlung;90e traitement supplémentaire;_4_3_V910;;1
+4.3.V911; 90. Nebenbehandlung, Seitigkeit;Latéralité du 90e trait. supplémentaire DRG;_4_3_V911;;1
+4.3.V915; 90. Nebenbehandlung, Beginn (JJJJMMTT);Début du  90e trait. supplémentaire DRG;_4_3_V915;;1
+4.3.V916; 90. Nebenbehandlung auswärts;90e trait. supplémentaire extra-muros;_4_3_V916;;1
+4.3.V917; 90. Nebenbehandlung Zusatzfeld;90e trait. Extra-muros, champ supp.;_4_3_V917;;1
+4.3.V920; 91. Nebenbehandlung;91e traitement supplémentaire;_4_3_V920;;1
+4.3.V921; 91. Nebenbehandlung, Seitigkeit;Latéralité du 91e trait. supplémentaire DRG;_4_3_V921;;1
+4.3.V925; 91. Nebenbehandlung, Beginn (JJJJMMTT);Début du  91e trait. supplémentaire DRG;_4_3_V925;;1
+4.3.V926; 91. Nebenbehandlung auswärts;91e trait. supplémentaire extra-muros;_4_3_V926;;1
+4.3.V927; 91. Nebenbehandlung Zusatzfeld;91e trait. Extra-muros, champ supp.;_4_3_V927;;1
+4.3.V930; 92. Nebenbehandlung;92e traitement supplémentaire;_4_3_V930;;1
+4.3.V931; 92. Nebenbehandlung, Seitigkeit;Latéralité du 92e trait. supplémentaire DRG;_4_3_V931;;1
+4.3.V935; 92. Nebenbehandlung, Beginn (JJJJMMTT);Début du  92e trait. supplémentaire DRG;_4_3_V935;;1
+4.3.V936; 92. Nebenbehandlung auswärts;92e trait. supplémentaire extra-muros;_4_3_V936;;1
+4.3.V937; 92. Nebenbehandlung Zusatzfeld;92e trait. Extra-muros, champ supp.;_4_3_V937;;1
+4.3.V940; 93. Nebenbehandlung;93e traitement supplémentaire;_4_3_V940;;1
+4.3.V941; 93. Nebenbehandlung, Seitigkeit;Latéralité du 93e trait. supplémentaire DRG;_4_3_V941;;1
+4.3.V945; 93. Nebenbehandlung, Beginn (JJJJMMTT);Début du  93e trait. supplémentaire DRG;_4_3_V945;;1
+4.3.V946; 93. Nebenbehandlung auswärts;93e trait. supplémentaire extra-muros;_4_3_V946;;1
+4.3.V947; 93. Nebenbehandlung Zusatzfeld;93e trait. Extra-muros, champ supp.;_4_3_V947;;1
+4.3.V950; 94. Nebenbehandlung;94e traitement supplémentaire;_4_3_V950;;1
+4.3.V951; 94. Nebenbehandlung, Seitigkeit;Latéralité du 94e trait. supplémentaire DRG;_4_3_V951;;1
+4.3.V955; 94. Nebenbehandlung, Beginn (JJJJMMTT);Début du  94e trait. supplémentaire DRG;_4_3_V955;;1
+4.3.V956; 94. Nebenbehandlung auswärts;94e trait. supplémentaire extra-muros;_4_3_V956;;1
+4.3.V957; 94. Nebenbehandlung Zusatzfeld;94e trait. Extra-muros, champ supp.;_4_3_V957;;1
+4.3.V960; 95. Nebenbehandlung;95e traitement supplémentaire;_4_3_V960;;1
+4.3.V961; 95. Nebenbehandlung, Seitigkeit;Latéralité du 95e trait. supplémentaire DRG;_4_3_V961;;1
+4.3.V965; 95. Nebenbehandlung, Beginn (JJJJMMTT);Début du  95e trait. supplémentaire DRG;_4_3_V965;;1
+4.3.V966; 95. Nebenbehandlung auswärts;95e trait. supplémentaire extra-muros;_4_3_V966;;1
+4.3.V967; 95. Nebenbehandlung Zusatzfeld;95e trait. Extra-muros, champ supp.;_4_3_V967;;1
+4.3.V970; 96. Nebenbehandlung;96e traitement supplémentaire;_4_3_V970;;1
+4.3.V971; 96. Nebenbehandlung, Seitigkeit;Latéralité du 96e trait. supplémentaire DRG;_4_3_V971;;1
+4.3.V975; 96. Nebenbehandlung, Beginn (JJJJMMTT);Début du  96e trait. supplémentaire DRG;_4_3_V975;;1
+4.3.V976; 96. Nebenbehandlung auswärts;96e trait. supplémentaire extra-muros;_4_3_V976;;1
+4.3.V977; 96. Nebenbehandlung Zusatzfeld;96e trait. Extra-muros, champ supp.;_4_3_V977;;1
+4.3.V980; 97. Nebenbehandlung;97e traitement supplémentaire;_4_3_V980;;1
+4.3.V981; 97. Nebenbehandlung, Seitigkeit;Latéralité du 97e trait. supplémentaire DRG;_4_3_V981;;1
+4.3.V985; 97. Nebenbehandlung, Beginn (JJJJMMTT);Début du  97e trait. supplémentaire DRG;_4_3_V985;;1
+4.3.V986; 97. Nebenbehandlung auswärts;97e trait. supplémentaire extra-muros;_4_3_V986;;1
+4.3.V987; 97. Nebenbehandlung Zusatzfeld;97e trait. Extra-muros, champ supp.;_4_3_V987;;1
+4.3.V990; 98. Nebenbehandlung;98e traitement supplémentaire;_4_3_V990;;1
+4.3.V991; 98. Nebenbehandlung, Seitigkeit;Latéralité du 98e trait. supplémentaire DRG;_4_3_V991;;1
+4.3.V995; 98. Nebenbehandlung, Beginn (JJJJMMTT);Début du  98e trait. supplémentaire DRG;_4_3_V995;;1
+4.3.V996; 98. Nebenbehandlung auswärts;98e trait. supplémentaire extra-muros;_4_3_V996;;1
+4.3.V997; 98. Nebenbehandlung Zusatzfeld;98e trait. Extra-muros, champ supp.;_4_3_V997;;1
+4.4.V01;Dauer der künstlichen Beatmung (Stunden);Durée de la ventilation artificielle;_4_4_V01;;1
+4.4.V02;Schweregrad der akuten Erkrankung;Gravité de la maladie aiguë;_4_4_V02;;1
+4.4.V03;Art des Score;Genre de score;_4_4_V03;;1
+4.4.V04;NEMS, Total aller Schichten;NEMS, total de toutes les séances;_4_4_V04;;1
+4.5.V01;Aufnahmegewicht (in Gramm);Poids à l’admission;_4_5_V01;;1
+4.5.V02;Kopfumfang;Tour de tête à la naissance;_4_5_V02;;1
+4.7.V03;Grund des 1. Wiedereintrittes;Raison de la 1ère réadmission;_4_7_V03;;1
+4.7.V13;Grund des 2. Wiedereintrittes;Raison de la 2èm réadmission;_4_7_V13;;1
+4.7.V23;Grund des 3. Wiedereintrittes;Raison de la 3èm réadmission;_4_7_V23;;1
+4.7.V33;Grund des 4. Wiedereintrittes;Raison de la 4èm réadmission;_4_7_V33;;1
+4.7.V41;Weitere Wiedereintritte;Réadmissions ultérieures;_4_7_V41;;1
+4.8.V01;DRG-Status;Statut DRG (Champ de réserve 1);_4_8_V01;;1
+4.8.V02;Medikament 1;Médicament 1;_4_8_V02;;1
+4.8.V03;Medikament 2;Médicament 2;_4_8_V03;;1
+4.8.V04;Medikament 3;Médicament 3;_4_8_V04;;1
+4.8.V05;Medikament 4;Médicament 4;_4_8_V05;;1
+4.8.V06;Medikament 5;Médicament 5;_4_8_V06;;1
+4.8.V07;Medikament 6;Médicament 6;_4_8_V07;;1
+4.8.V08;Medikament 7;Médicament 7;_4_8_V08;;1
+4.8.V09;Medikament 8;Médicament 8;_4_8_V09;;1
+4.8.V10;Medikament 9;Médicament 9;_4_8_V10;;1
+4.8.V11;Medikament 10;Médicament 10;_4_8_V11;;1
+4.8.V12;Medikament 11;Médicament 11;_4_8_V12;;1
+4.8.V13;Medikament 12;Médicament 12;_4_8_V13;;1
+4.8.V14;Medikament 13;Médicament 13;_4_8_V14;;1
+4.8.V15;Medikament 14;Médicament 14;_4_8_V15;;1
+KlinikName;Name der Klinik (nur mit Einverständniserklärung);Name der Klinik (nur mit Einverständniserklärung);KlinikName;Zusätzliche Variable;1
+;;;;;
+"*401  = Schweizer Paraplegiker-Zentrum Nottwil
+";;;;;
+*402 = REHAB Basel;;;;;
+*403  = CRR Suva Sion;;;;;

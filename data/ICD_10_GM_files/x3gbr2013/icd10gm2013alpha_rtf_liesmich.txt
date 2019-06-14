@@ -1,0 +1,47 @@
+ICD-10-GM, Alphabetisches Verzeichnis
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+in Kooperation mit dem Zentralinstitut für die kassenärztliche Versorgung in der Bundesrepublik Deutschland (ZI)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013      (OID 1.2.276.0.76.5.413)
+Alphabetisches Verzeichnis  Buchfassung RTF
+
+Herausgabe der Klassifikation:      28.09.2012
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+INHALT DES ZIP-FILES  x3gbr2013.zip:
+
+  - icd10gm2013alpha_rtf_liesmich.txt
+
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - KLASSIFIKATIONSDATEI
+    icd10gm2013alpha_rtf_20120928.rtf
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Die Klassifikationsdatei enthält das vollständige Alphabetische Verzeichnis der ICD-10-GM.
+
+Im Systematischen Verzeichnis zur ICD-10-GM sind Diagnosen in den Klassentexten jeweils nur mit ihrer Vorzugsbezeichnung genannt; Synonyme (z.B. Ziegenpeter als Synonym für Mumps) sind nicht enthalten.
+Das Alphabetische Verzeichnis enthält neben den Vorzugsbezeichnungen auch eine Vielzahl von Synonymen, insgesamt sind es mehr als 76.000 Diagnosentexte, verschlüsselt mit dem entsprechenden Kode der zugrunde liegenden ICD-Version.
+
+Nicht alle Kodes, die in der Systematik enthalten sind, sind auch im Alphabet enthalten. Es fehlen z.B.:
+
+  - Ausrufezeichen- und Sternkodes als Einzelkodes, da sie nur zusammen mit einem Primärkode verwendet werden können (Mehrfachkodierung); in Kombination mit einem Primärkode können sie aber enthalten sein
+
+  - ein Teil der Kodes, deren Klassentexte in der Systematik unspezifische Angaben enthalten wie "sonstige", "nicht näher bezeichnete", "mehrere Lokalisationen", "einer einzelnen näher bezeichneten Lokalisation"; sind in der Systematik bei solchen Kodes jedoch spezifische Inklusiva genannt, sind diese im Alphabet enthalten. 

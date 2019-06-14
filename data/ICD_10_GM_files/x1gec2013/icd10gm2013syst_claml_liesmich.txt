@@ -1,0 +1,60 @@
+ICD-10-GM, Systematisches Verzeichnis
+Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+- German Modification -
+
+Herausgegeben vom Deutschen Institut für Medizinische Dokumentation und Information (DIMDI)
+im Auftrag des Bundesministeriums für Gesundheit (BMG)
+unter Beteiligung der Arbeitsgruppe ICD des Kuratoriums für Fragen der Klassifikation im Gesundheitswesen (KKG)
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LIESMICHDATEI 
+
+ICD-10-GM Version 2013 (OID 1.2.276.0.76.5.413)
+Systematisches Verzeichnis  EDV-Fassung ClaML/XML
+
+Herausgabe der Klassifikation:          21.09.2012
+
+
+Das Herausgabedatum entspricht dem Stand der Klassifikationsdateien bei der Erstveröffentlichung einer neuen Jahresversion. 
+Werden die Dateien nach der Erstveröffentlichung unterjährig aufgrund von Fehlerkorrekturen oder nachträglichen Ergänzungen geändert und neu publiziert, wird zusätzlich das Aktualisierungsdatum angegeben.
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+INHALT DES ZIP-FILES  x1gec2013.zip:
+
+  - icd10gm2013syst_claml_liesmich.txt
+ 
+  - Ordner VERTRAGSBEDINGUNGEN 
+    Wichtige Hinweise zu Kauf und Download von Dateien
+    Downloadbedingungen
+    AGB des DIMDI Webshop 
+    Impressum
+
+  - Ordner KLASSIFIKATIONSDATEIEN 
+    ClaML.dtd
+    icd10gm2013syst_claml_20120921.xml 
+    
+
+  - claml-kurzdokumentation_20120824.pdf
+
+  - Ordner ZUSATZDATEIEN
+    icd10gm2013syst_01_vor_titelblatt.odt
+    icd10gm2013syst_02_vor_inhaltsverzeichnis.odt
+    icd10gm2013syst_03_vor_anleitung_zur_verschluesselung.odt
+    icd10gm2013syst_04_vor_kommentar.odt
+    icd10gm2013syst_05_anh_morphologie_neubildungen.odt
+    icd10gm2013syst_06_anh_barthelindex.odt
+    icd10gm2013syst_07_anh_erwbarthelindex.odt
+    icd10gm2013syst_08_anh_frb_schoenle.odt
+    icd10gm2013syst_09_anh_fim.odt
+    icd10gm2013syst_10_anh_mmse.odt
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Grundlage dieser XML-Fassung ist ClaML (Classification Markup Language), eine spezielle XML-Notation für Klassifikationen, die 2007 als europäische Norm (CEN/TS 14463) akzeptiert wurde. Nähere Informationen zur ClaML-Notation finden Sie in der beiliegenden Kurzdokumentation. 
+
+Die Datei ClaML.dtd enthält die Document Type Definitions und beschreibt die Dokumentstruktur für XML. 
+In der XML-Datei ist - unter weitgehendem Verzicht auf Layoutinformationen - die logische Struktur der ICD-10-GM genau beschrieben durch XML-Auszeichnung der Inhaltselemente nach der ClaML-Notation. Da sich auf Grund der Struktur der ICD-10-GM manche Layoutinformationen nicht komplett dtd-konform abbilden lassen, kann es beim Validieren der Datei zu Warnmeldungen kommen.
+
+Die Dateien können in jedem herkömmlichen Texteditor gelesen und bearbeitet werden. Sie sind primär zur maschinellen Weiterverarbeitung in XML-basierten Systemen gedacht und können von diesen direkt eingelesen werden. XML-Dateien können in jedes beliebige Format überführt werden; dazu muss in der Regel ein Umsetzungsprogramm geschrieben werden.
