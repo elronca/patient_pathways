@@ -10,8 +10,8 @@ library(tidyverse)
 
 ## Load data
 
-load(file = file.path(".", "workspace", "cases_completeness.RData"))
-load(file = file.path(".", "workspace", "vars_date_time.RData"))
+load(file = file.path("workspace", "cases_completeness.RData"))
+load(file = file.path("workspace", "vars_date_time.RData"))
 
 
 
@@ -92,7 +92,7 @@ cases <- filter(cases, !pat_id %in% get_id_sex_check)
 
 cases <- select(cases, -adm_date)
 
-save(cases, file = file.path(".", "workspace", "plausibility_checked.RData"))
+save(cases, file = file.path("workspace", "plausibility_checked.RData"))
 
 rm("cases", "diff_max_min", "diff_years_dataset", "get_id_age_check", "get_id_sex_check")
 

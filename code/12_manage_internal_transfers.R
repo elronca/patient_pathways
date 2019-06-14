@@ -12,7 +12,7 @@ pblapply <- pbapply::pblapply
 na.locf0 <- zoo::na.locf
 rbindlist <- data.table::rbindlist
 
-load(file = file.path(".", "workspace", "coding_cred_score_added.RData"))
+load(file = file.path("workspace", "coding_cred_score_added.RData"))
 
 n_rows_original_file <- nrow(cases)
 
@@ -283,7 +283,7 @@ cat(n_rows_original_file - nrow(cases), "fewer hospitalizations due to collapsin
 
 # Clear workspace and save file -------------------------------------------
 
-save(cases, file = file.path(".", "workspace", "internal_transfers_merged.RData"))
+save(cases, file = file.path("workspace", "internal_transfers_merged.RData"))
 
 rm("cases", "flatten", "merge_int_trans", "n_rows_original_file", 
   "na.locf0", "pblapply", "rbindlist", "split_multiple_it_pp", 

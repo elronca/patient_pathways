@@ -6,7 +6,7 @@
 
 library(tidyverse)
 
-load(file = file.path(".", "workspace", "acute_edited.RData"))
+load(file = file.path("workspace", "acute_edited.RData"))
 
 diagnostic_vars <- grep("orig", names(cases), value = TRUE)
 
@@ -20,10 +20,8 @@ cases <- select(cases, c("pat_id", "dis_year","seq_no_corr", "age", "sex", "LOS_
 
 
 
-save(cases, file = file.path(".", "workspace", "vars_reduced.RData"))
-save(diagnostic_vars, file = file.path(".", "workspace", "diagnostic_vars.RData"))
+save(cases, file = file.path("workspace", "vars_reduced.RData"))
+save(diagnostic_vars, file = file.path("workspace", "diagnostic_vars.RData"))
 
 
 rm(cases, diagnostic_vars)
-
-

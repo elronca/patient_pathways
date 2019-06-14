@@ -10,8 +10,8 @@ library(tidyverse)
 
 # Load data
 
-load(file = file.path(".", "workspace", "vars_reduced.RData"))
-load(file = file.path(".", "workspace", "diagnostic_vars.RData"))
+load(file = file.path("workspace", "vars_reduced.RData"))
+load(file = file.path("workspace", "diagnostic_vars.RData"))
 
 cases <- cases %>% 
   

@@ -8,7 +8,7 @@ library(tidyverse)
 library(zoo)
 
 
-load(file = file.path(".", "Workspace", "appliedExclCrit.RData"))
+load(file = file.path("Workspace", "appliedExclCrit.RData"))
 
 
 ## Get BUR numbers of specialized centers
@@ -121,7 +121,7 @@ table(cases$type_2, useNA = "always")
 
 # Remove variables - Save dataset - Clear workspace -----------------------------------
 
-save(cases, file = file.path(".", "workspace", "spec_cent_identified.RData"))
+save(cases, file = file.path("workspace", "spec_cent_identified.RData"))
 
 rm("cases", "hosp_spez_SCI", "hosp_spez_surg", "hosp_spez_univ", 
    "spec_SCI", "spez_surg", "univ_hosp")

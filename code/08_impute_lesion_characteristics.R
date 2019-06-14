@@ -10,7 +10,7 @@ library(pbapply)
 
 rbindlist <- data.table::rbindlist
 
-load(file = file.path(".", "workspace", "spec_cent_identified.RData"))
+load(file = file.path("workspace", "spec_cent_identified.RData"))
 
 
 
@@ -287,7 +287,7 @@ cases %>%
 
 cases <- select(cases, -starts_with("distinct_"))
 
-save(cases, file = file.path(".", "workspace", "les_char_imp.RData"))
+save(cases, file = file.path("workspace", "les_char_imp.RData"))
 
 rm("calc_prop_coding", "cases", "cases_l", "check_diff_in_coding", 
   "harmonize_les_char", "rbindlist")

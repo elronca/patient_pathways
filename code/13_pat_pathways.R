@@ -7,7 +7,7 @@
 library(tidyverse)
 pblapply <- pbapply::pblapply
 
-load(file = file.path(".", "workspace", "internal_transfers_merged.RData"))
+load(file = file.path("workspace", "internal_transfers_merged.RData"))
 
 
 # Create variable with abbreviation ---------------------------------------
@@ -131,10 +131,10 @@ sample_pathway <- filter(cases, pat_path == "t-R")
 
 # Save pathways -----------------------------------------------------------
 
-write_delim(pat_path_freq_table, delim = ";", file.path(".", "output", "pat_path_freq_table.csv"))
+write_delim(pat_path_freq_table, delim = ";", file.path("output", "pat_path_freq_table.csv"))
 
-save(cases, file = file.path(".", "workspace", "cases_pathways.RData"))
-save(pat_path_freq_table, file = file.path(".", "workspace", "pat_path_freq_table.RData"))
+save(cases, file = file.path("workspace", "cases_pathways.RData"))
+save(pat_path_freq_table, file = file.path("workspace", "pat_path_freq_table.RData"))
 
 rm("cases", "draw_pat_path", "pat_all_diag_chapter", "pat_all_diag_groups", 
      "pat_all_diag_groups_NTSCI", "pat_all_diag_groups_TSCI", "pat_path_freq_table", 

@@ -7,9 +7,9 @@
 
 library(tidyverse)
 
-load(file.path(".", "workspace", "vars_reduced.RData"))
+load(file.path("workspace", "vars_reduced.RData"))
 
-load(file.path(".", "workspace", "vars_side_diagnoses.RData"))
+load(file.path("workspace", "vars_side_diagnoses.RData"))
 
 
 # Get principle and side diagnosis of patients
@@ -134,7 +134,7 @@ the_good <- cases %>%
 
 # Save dataset and clear workspace
 
-save(cases, file = file.path(".", "workspace", "coding_cred_score_added.RData"))
+save(cases, file = file.path("workspace", "coding_cred_score_added.RData"))
 
 rm("cases", "diagnoses", "get_SCI_codes", "ICD_10_SCI", "ICD_10_SCI_dt_ll", 
   "SCI_coding_cred_score", "score_dt_ll", "score_main_code", "the_bad", 

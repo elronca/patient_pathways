@@ -12,11 +12,11 @@ library(pbapply)
 rbindlist <- data.table::rbindlist
 
 
-load(file = file.path(".", "workspace", "les_char_imp.RData"))
+load(file = file.path("workspace", "les_char_imp.RData"))
 
-load(file = file.path(".", "workspace", "vars_adm_char.RData"))
+load(file = file.path("workspace", "vars_adm_char.RData"))
 
-load(file = file.path(".", "workspace", "vars_date_time.RData"))
+load(file = file.path("workspace", "vars_date_time.RData"))
 
 
 # Merge additional data into dataset --------------------------------------
@@ -378,7 +378,7 @@ cases_glimpse <- cases %>%
 
 
 
-save(cases, file = file.path(".", "workspace", "acute_edited.RData"))
+save(cases, file = file.path("workspace", "acute_edited.RData"))
 
 rm("cases", "cases_glimpse", "check_b4_acute", "hosp_counter",   "pat", "patients", "rbindlist", 
    "remove_hosp_after_acute", "remove_hosp_directly_after_last_acute")

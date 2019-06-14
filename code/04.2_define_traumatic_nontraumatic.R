@@ -8,7 +8,7 @@
 
 library(tidyverse)
 
-load(file = file.path(".", "workspace", "cases_acute_chronic.RData"))
+load(file = file.path("workspace", "cases_acute_chronic.RData"))
 
 
 # Traumatic/Non-traumatic SCI ---------------------------------------------
@@ -78,6 +78,6 @@ table(cases$cause, useNA = "always")
 
 # Remove variables - Save dataset - Clear workspace -----------------------------------
 
-save(cases, file = file.path(".", "workspace", "cases_cause.RData"))
+save(cases, file = file.path("workspace", "cases_cause.RData"))
 
 rm("acute_nt_codes", "cases")

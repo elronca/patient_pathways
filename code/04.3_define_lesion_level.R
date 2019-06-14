@@ -8,7 +8,7 @@
 library(tidyverse)
 library(pbapply)
 
-load(file = file.path(".", "workspace", "cases_cause.RData"))
+load(file = file.path("workspace", "cases_cause.RData"))
 
 
 # Define detailed lesion level --------------------------------------------
@@ -209,7 +209,7 @@ cases <- filter(cases, !pat_id %in% pat_no_lesion_level)
 
 cases <- select(cases, -para, -tetra)
 
-save(cases, file = file.path(".", "workspace", "cases_lesion_level.RData"))
+save(cases, file = file.path("workspace", "cases_lesion_level.RData"))
 
 rm("C1_C3", "C4_C5", "C6_C8", "cases", "catch_para_codes", "catch_tetra_codes", 
   "Cauda", "collapse_codes", "conflict_cases", "get_ll", "ICD_cols", 

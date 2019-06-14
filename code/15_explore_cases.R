@@ -7,7 +7,7 @@ library(tableone)
 
 rbindlist <- data.table::rbindlist	
 
-load(file = file.path(".", "workspace", "cases_pathways.RData"))
+load(file = file.path("workspace", "cases_pathways.RData"))
 
 
 # Prepare dataset for regression ------------------------------------------------------

@@ -8,7 +8,7 @@
 library(tidyverse)
 library(pbapply)
 
-load(file = file.path(".", "workspace", "plausibility_checked.RData"))
+load(file = file.path("workspace", "plausibility_checked.RData"))
 
 
 # Find hospitalizations with exclusion criteria ---------------------------
@@ -52,7 +52,7 @@ nrow(cases)
 
 cases <- select(cases, -starts_with("sd_"), -ex_crit)
 
-save(cases, file = file.path(".", "workspace", "appliedExclCrit.RData"))
+save(cases, file = file.path("workspace", "appliedExclCrit.RData"))
 
 rm("ALS", "cases", "disease_excl", "find_ex_crit", "GBS", "ICD_cols", 
   "MS", "pat_excluded", "SpinaBifida")

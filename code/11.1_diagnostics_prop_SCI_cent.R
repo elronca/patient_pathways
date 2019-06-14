@@ -6,8 +6,8 @@
 
 library(tidyverse)
 
-load(file = file.path(".", "workspace", "vars_reduced.RData"))
-load(file = file.path(".", "workspace", "diagnostic_vars.RData"))
+load(file = file.path("workspace", "vars_reduced.RData"))
+load(file = file.path("workspace", "diagnostic_vars.RData"))
 
 cases <- cases %>% select(id, pat_id, age, sex, type_2, dis_year, cause, completeness, lesion_level) %>% 
   left_join(diagnostic_vars, by = "id")

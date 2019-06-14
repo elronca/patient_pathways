@@ -9,7 +9,7 @@ library(tidyverse)
 library(pbapply)
 
 
-load(file = file.path(".", "workspace", "cases_lesion_level.RData"))
+load(file = file.path("workspace", "cases_lesion_level.RData"))
 
 
 
@@ -108,7 +108,7 @@ cases[which(cases$completeness == "conflict"), "completeness"] <- "complete"
 
 cases <- select(cases, -complete, -incomplete)
 
-save(cases, file = file.path(".", "workspace", "cases_completeness.RData"))
+save(cases, file = file.path("workspace", "cases_completeness.RData"))
 
 rm("ICD_cols", "cases", "catch_complete_codes", "catch_incomplete_codes", 
   "chron_SCI", "complete_acute_SCI", "complete_chron_SCI", "complete_SCI_codes", 

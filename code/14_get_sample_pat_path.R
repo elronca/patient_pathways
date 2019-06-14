@@ -4,7 +4,7 @@
 library(tidyverse)
 library(openxlsx)
 
-load(file = file.path(".", "workspace", "cases_pathways.RData"))
+load(file = file.path("workspace", "cases_pathways.RData"))
 
 
 ## Get a sample of patients ----------------------------------------------------
